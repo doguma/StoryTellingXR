@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Hannah/assets/Happy Idle.fbx.meta
+    - Assets/Hannah/assets/Male Sitting Pose.fbx.meta
+    - Assets/Hannah/assets/meshtint_asset/Standard Assets Files/Animators and Animations/Char@Walk
+      Forward In Place.FBX.meta
+    - Assets/Hannah/assets/mixamo/Happy Idle.fbx.meta
+    - Assets/Hannah/assets/mixamo/Male Sitting Pose.fbx.meta
+    - Assets/Hannah/assets/mixamo/ybot@Arm Stretching.fbx.meta
+    - Assets/Hannah/assets/mixamo/ybot_animations.controller
+    - Assets/Hannah/scenes/Scene Indoor.meta
+    - Assets/Hannah/scenes/Scene Indoor/NavMesh.asset
+    - Assets/Hannah/scenes/Scene Indoor/NavMesh.asset.meta
+    - Assets/Hannah/scripts.meta
+    - Assets/Hannah/scripts/CameraController.cs
+    - Assets/Hannah/scripts/CameraController.cs.meta
+    - Assets/Hannah/scripts/IdleWalk.cs
+    - Assets/Hannah/scripts/IdleWalk.cs.meta
+    - Assets/Hannah/scripts/NavMeshComponents.meta
+    - Assets/Hannah/scripts/NavMeshComponents/NavMeshLink.cs
+    - Assets/Hannah/scripts/NavMeshComponents/NavMeshLink.cs.meta
+    - Assets/Hannah/scripts/NavMeshComponents/NavMeshModifier.cs
+    - Assets/Hannah/scripts/NavMeshComponents/NavMeshModifier.cs.meta
+    - Assets/Hannah/scripts/NavMeshComponents/NavMeshModifierVolume.cs
+    - Assets/Hannah/scripts/NavMeshComponents/NavMeshModifierVolume.cs.meta
+    - Assets/Hannah/scripts/NavMeshComponents/NavMeshSurface.cs
+    - Assets/Hannah/scripts/NavMeshComponents/NavMeshSurface.cs.meta
+    - Assets/Hannah/scripts/PlayerController.cs
+    - Assets/Hannah/scripts/PlayerController.cs.meta
+    - Assets/Hannah/scripts/PlayerMotor.cs
+    - Assets/Hannah/scripts/PlayerMotor.cs.meta
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0

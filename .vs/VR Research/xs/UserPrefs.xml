@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{0BC7E233-1D9E-0B04-E9AA-24ABCEEE944A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Hannah/scripts/PlayerMotor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Hannah/assets/brackeys_asset/PlayerController.cs">
     <Files>
       <File FileName="Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs" Line="86" Column="1" />
       <File FileName="Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/Models/Providers/Collab.cs" Line="477" Column="1" />
@@ -9,19 +9,12 @@
       <File FileName="Assets/Hannah/scripts/NavMeshSurface.cs" Line="17" Column="6" />
       <File FileName="Assets/Hannah/scripts/PlayerController.cs" Line="36" Column="1" />
       <File FileName="Assets/Hannah/scripts/PlayerMotor.cs" Line="22" Column="1" />
+      <File FileName="Assets/Hannah/assets/brackeys_asset/PlayerController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="VR Research" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Hannah" expanded="True">
-                <Node name="scripts" expanded="True">
-                  <Node name="PlayerMotor.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="VR Research" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

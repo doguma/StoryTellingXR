@@ -59,10 +59,10 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs" />
-    <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" />
     <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Editor/NavMeshModifierEditor.cs" />
     <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Editor/NavMeshLinkEditor.cs" />
+    <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs" />
+    <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" />
     <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" />
   </ItemGroup>
   <ItemGroup>

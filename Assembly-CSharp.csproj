@@ -60,15 +60,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Hannah/scripts/CameraController.cs" />
+    <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Scripts/NavMeshModifierVolume.cs" />
+    <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Scripts/NavMeshLink.cs" />
     <Compile Include="Assets/Kamil/Scripts/randomColor.cs" />
+    <Compile Include="Assets/Hannah/scripts/IdleWalk.cs" />
+    <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Scripts/NavMeshModifier.cs" />
+    <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Scripts/NavMeshSurface.cs" />
+    <Compile Include="Assets/Hannah/assets/brackeys_asset/PlayerController.cs" />
     <Compile Include="Assets/Kamil/Scripts/FirstPersonController.cs" />
     <Compile Include="Assets/Kamil/Scripts/NetworkController.cs" />
-    <Compile Include="Assets/Hannah/scripts/IdleWalk.cs" />
-    <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Scripts/NavMeshSurface.cs" />
-    <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Scripts/NavMeshModifier.cs" />
-    <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Scripts/NavMeshLink.cs" />
-    <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Scripts/NavMeshModifierVolume.cs" />
-    <Compile Include="Assets/Hannah/assets/brackeys_asset/PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Kamil/Assets/Kevin Iglesias/3DCharacterDummy/Readme.txt" />

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using System;
 
 
 public class PlayerController : MonoBehaviour
@@ -7,6 +8,11 @@ public class PlayerController : MonoBehaviour
 
     public Camera cam;
     public NavMeshAgent agent;
+
+    //public Animator anim;
+    public Rigidbody rigidbody1;
+
+    private float vel;
 
     // Update is called once per frame
     void Update()
@@ -20,7 +26,11 @@ public class PlayerController : MonoBehaviour
             {
                 agent.SetDestination(hit.point);
             }
-        } 
+        }
+
+        //vel = Mathf.Abs(rigidbody1.velocity[0]) + Mathf.Abs(rigidbody1.velocity[2]);      //to get a Vector3 representation of the velocity
+        ////Debug.Log(rigidbody1.velocity);
+        //anim.SetFloat("Walk", vel);
     }
 
 }

@@ -14,23 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Hannah/assets/meshtint_asset/Standard Assets Files/Animators and Animations/Char@Run
-      Forward W Weapons In Place.FBX.meta
-    - Assets/Hannah/assets/meshtint_asset/Standard Assets Files/Animators and Animations/Char@Walk
-      Forward W Root.FBX.meta
-    - Assets/Hannah/assets/mixamo/Happy Idle.fbx.meta
-    - Assets/Hannah/assets/mixamo/jump.fbx
-    - Assets/Hannah/assets/mixamo/jump.fbx.meta
-    - Assets/Hannah/assets/mixamo/left turn 90.fbx
     - Assets/Hannah/assets/mixamo/left turn 90.fbx.meta
-    - Assets/Hannah/assets/mixamo/left turn.fbx
-    - Assets/Hannah/assets/mixamo/left turn.fbx.meta
-    - Assets/Hannah/assets/mixamo/right turn 90.fbx
+    - Assets/Hannah/assets/mixamo/left turn.anim
+    - Assets/Hannah/assets/mixamo/left turn.anim.meta
     - Assets/Hannah/assets/mixamo/right turn 90.fbx.meta
-    - Assets/Hannah/assets/mixamo/right turn.fbx
     - Assets/Hannah/assets/mixamo/right turn.fbx.meta
+    - Assets/Hannah/scenes/Scene Indoor.unity
+    - Assets/Hannah/scripts/AINavigationControl.cs
+    - Assets/Hannah/scripts/AINavigationControl.cs.meta
     - 
-    m_Values: 0101010101010101010101010101
+    m_Values: 000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

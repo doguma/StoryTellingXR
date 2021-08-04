@@ -350,6 +350,7 @@
 "Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Scripts/NavMeshModifierVolume.cs"
 "Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Scripts/NavMeshSurface.cs"
 "Assets/Hannah/assets/brackeys_asset/PlayerController.cs"
+"Assets/Hannah/scripts/AINavigationControl.cs"
 "Assets/Hannah/scripts/CameraController.cs"
 "Assets/Hannah/scripts/IdleWalk.cs"
 "Assets/Kamil/Scripts/FirstPersonController.cs"

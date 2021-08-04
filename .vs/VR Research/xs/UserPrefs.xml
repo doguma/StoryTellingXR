@@ -1,5 +1,9 @@
 ﻿<Properties StartupConfiguration="{0BC7E233-1D9E-0B04-E9AA-24ABCEEE944A}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Hannah/scripts/AINavigationControl.cs">
+    <Files>
+      <File FileName="Assets/Hannah/scripts/AINavigationControl.cs" Line="34" Column="23" />
+      <File FileName="Assets/Hannah/scripts/IdleWalk.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -14,7 +18,7 @@
                   </Node>
                 </Node>
                 <Node name="scripts" expanded="True">
-                  <Node name="IdleWalk.cs" selected="True" />
+                  <Node name="AINavigationControl.cs" selected="True" />
                 </Node>
               </Node>
             </Node>

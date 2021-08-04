@@ -15,11 +15,11 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 241
-    y: 59
+    y: 53
     width: 1507
     height: 978
   m_ShowMode: 4
-  m_Title: Collaborate
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -116,10 +116,10 @@ MonoBehaviour:
     y: 30
     width: 1507
     height: 928
-  m_MinSize: {x: 660, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 116
+  controlID: 99
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 44
+  controlID: 100
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 45
+  controlID: 101
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: CollaborateWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -270,16 +270,16 @@ MonoBehaviour:
     y: 0
     width: 394
     height: 928
-  m_MinSize: {x: 257, y: 421}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 14}
   - {fileID: 13}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 3
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1354
-    y: 89
+    y: 83
     width: 393
     height: 907
   m_ViewDataDictionary: {fileID: 0}
@@ -377,7 +377,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1398
+    x: 1354
     y: 83
     width: 393
     height: 907
@@ -389,7 +389,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 171
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -416,17 +416,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 19
+    x: 241
+    y: 83
     width: 315
     height: 529
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 26fbffff
+      m_SelectedIDs: 80580000
+      m_LastClickedID: 22656
+      m_ExpandedIDs: 26fbffff94580000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 557
-    y: 89
+    y: 83
     width: 795
     height: 529
   m_ViewDataDictionary: {fileID: 0}
@@ -678,10 +678,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 376
-    y: 30
-    width: 945.5
-    height: 613
+    x: 557
+    y: 83
+    width: 795
+    height: 529
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
@@ -704,14 +704,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.9631189
+    - e00: 0.45335436
       e01: 0
       e02: 0
-      e03: 202.51572
+      e03: 279.87393
       e10: 0
-      e11: 0.9631189
+      e11: 0.45335436
       e12: 0
-      e13: 251.27667
+      e13: 321.1321
       e20: 0
       e21: 0
       e22: 1
@@ -762,8 +762,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 569
+    x: 241
+    y: 633
     width: 1112
     height: 357
   m_ViewDataDictionary: {fileID: 0}
@@ -780,22 +780,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Hannah/assets/mixamo
+    - Assets/Hannah/scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Hannah/assets/mixamo
+  - Assets/Hannah/scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/doguma/Desktop/Unity Projects/VR Research
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 243.99866}
-    m_SelectedIDs: 745a0000
-    m_LastClickedID: 23156
-    m_ExpandedIDs: 000000006a5a00006c5a00006e5a0000705a0000725a0000745a0000765a0000785a00007a5a00007c5a000000ca9a3b
+    scrollPos: {x: 0, y: 239}
+    m_SelectedIDs: 105c0000
+    m_LastClickedID: 23568
+    m_ExpandedIDs: 00000000b45a0000b65a0000b85a0000ba5a0000bc5a0000be5a0000c05a0000c25a0000c45a0000c65a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -823,7 +823,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006a5a00006c5a00006e5a0000705a0000725a0000745a0000765a0000785a00007a5a00007c5a0000
+    m_ExpandedIDs: 00000000b45a0000b65a0000b85a0000ba5a0000bc5a0000be5a0000c05a0000c25a0000c45a0000c65a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -850,7 +850,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000046100008efc0000ca610000025c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -900,7 +900,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 285
+    x: 241
     y: 633
     width: 1112
     height: 357

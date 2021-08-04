@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets/Hannah/scripts/CameraController.cs" />
     <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Scripts/NavMeshModifierVolume.cs" />
+    <Compile Include="Assets/Hannah/scripts/AINavigationControl.cs" />
     <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Scripts/NavMeshLink.cs" />
     <Compile Include="Assets/Kamil/Scripts/randomColor.cs" />
     <Compile Include="Assets/Hannah/scripts/IdleWalk.cs" />

@@ -13,17 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys:
-    - Assets/Hannah/assets/mixamo/left turn 90.fbx.meta
-    - Assets/Hannah/assets/mixamo/left turn.anim
-    - Assets/Hannah/assets/mixamo/left turn.anim.meta
-    - Assets/Hannah/assets/mixamo/right turn 90.fbx.meta
-    - Assets/Hannah/assets/mixamo/right turn.fbx.meta
-    - Assets/Hannah/scenes/Scene Indoor.unity
-    - Assets/Hannah/scripts/AINavigationControl.cs
-    - Assets/Hannah/scripts/AINavigationControl.cs.meta
-    - 
-    m_Values: 000000000000000000
+    m_Keys: []
+    m_Values: 
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

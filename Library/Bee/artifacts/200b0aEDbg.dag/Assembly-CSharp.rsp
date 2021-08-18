@@ -312,8 +312,6 @@
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Multiplayer.MLAPI.Prototyping.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Multiplayer.MLAPI.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.PlasticSCM.Editor.ref.dll"
--r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Postprocessing.Editor.ref.dll"
--r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Subsystem.Registration.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.Editor.ref.dll"
@@ -357,8 +355,11 @@
 "Assets/Hannah/scripts/SitOn.cs"
 "Assets/Hannah/scripts/sitOn2.cs"
 "Assets/Kamil/Scripts/FirstPersonController.cs"
+"Assets/Kamil/Scripts/GameManager.cs"
 "Assets/Kamil/Scripts/NetworkController.cs"
+"Assets/Kamil/Scripts/Player.cs"
 "Assets/Kamil/Scripts/randomColor.cs"
+"Assets/Kamil/Scripts/UIManager.cs"
 -langversion:8.0
 
 /deterministic

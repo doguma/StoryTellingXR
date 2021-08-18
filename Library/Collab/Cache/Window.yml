@@ -14,10 +14,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Hannah/assets/meshtint_asset/Standard Assets Files/Animators and Animations/Char@Idle.FBX.meta
+    - Assets/Hannah/assets/meshtint_asset/Standard Assets Files/Animators and Animations/Char@Run
+      Forward W Weapons In Place.FBX.meta
+    - Assets/Hannah/assets/meshtint_asset/Standard Assets Files/Animators and Animations/Char@Run
+      Forward W Weapons W Root.FBX.meta
+    - Assets/Hannah/assets/meshtint_asset/Standard Assets Files/Animators and Animations/Char@Walk
+      Forward In Place.FBX.meta
+    - Assets/Hannah/assets/meshtint_asset/Standard Assets Files/Animators and Animations/Char@Walk
+      Forward W Root.FBX.meta
+    - Assets/Hannah/assets/mixamo/Laying Idle.fbx
+    - Assets/Hannah/assets/mixamo/Laying Idle.fbx.meta
+    - Assets/Hannah/assets/mixamo/Lying Down.fbx
+    - Assets/Hannah/assets/mixamo/Lying Down.fbx.meta
+    - Assets/Hannah/assets/mixamo/Sit Up.fbx
+    - Assets/Hannah/assets/mixamo/Sit Up.fbx.meta
+    - Assets/Hannah/assets/mixamo/Sit to Stand.fbx
+    - Assets/Hannah/assets/mixamo/Sit to Stand.fbx.meta
+    - Assets/Hannah/assets/mixamo/Sleeping.fbx
+    - Assets/Hannah/assets/mixamo/Sleeping.fbx.meta
+    - Assets/Hannah/assets/mixamo/Stand to Sit.fbx
+    - Assets/Hannah/assets/mixamo/Stand to Sit.fbx.meta
+    - Assets/Hannah/assets/mixamo/kachujin_g_rosales@Laying Idle.fbx.meta
+    - Assets/Hannah/assets/mixamo/kachujin_g_rosales@Sitting Idle.fbx.meta
     - Assets/Hannah/assets/mixamo/main_animations.controller
     - Assets/Hannah/scenes/Scene Indoor.unity
+    - Assets/Hannah/scripts/LayOn.cs
     - 
-    m_Values: 010101
+    m_Values: 0000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

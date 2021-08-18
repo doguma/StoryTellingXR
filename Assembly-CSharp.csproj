@@ -73,6 +73,9 @@
     <Compile Include="Assets/Kamil/Scripts/NetworkController.cs" />
     <Compile Include="Assets/Hannah/scripts/sitOn2.cs" />
     <Compile Include="Assets/Hannah/scripts/SitOn.cs" />
+    <Compile Include="Assets/Kamil/Scripts/GameManager.cs" />
+    <Compile Include="Assets/Kamil/Scripts/UIManager.cs" />
+    <Compile Include="Assets/Kamil/Scripts/Player.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Kamil/Assets/Kevin Iglesias/3DCharacterDummy/Readme.txt" />
@@ -708,9 +711,6 @@
     <Reference Include="Unity.Subsystem.Registration">
       <HintPath>Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -749,9 +749,6 @@
     </Reference>
     <Reference Include="Unity.XR.WindowsMixedReality.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>

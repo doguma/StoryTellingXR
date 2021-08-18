@@ -324,8 +324,6 @@
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Multiplayer.MLAPI.Prototyping.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Multiplayer.MLAPI.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.PlasticSCM.Editor.ref.dll"
--r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Postprocessing.Editor.ref.dll"
--r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Subsystem.Registration.ref.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.TextMeshPro.Editor.ref.dll"

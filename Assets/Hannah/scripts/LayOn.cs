@@ -4,31 +4,49 @@ using UnityEngine;
 
 public class LayOn : MonoBehaviour
 {
+
     public GameObject character;
     Animator anim;
+    bool isWalkingTowards = false;
+    bool sleepingOn = false;
+
+    private void OnMouseDown()
+    {
+        if (!sleepingOn)
+        {
+            anim.SetTrigger("isWalking");
+            isWalkingTowards = true;
+        }
+    }
 
     void Start()
     {
         anim = character.GetComponent<Animator>();
-
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-
-        if (Vector3.Distance(character.transform.position, this.transform.position) < 3)
+        if (isWalkingTowards)
         {
-            anim.SetBool("isSleeping", true);
-            anim.SetBool("isWalking", false);
+            Vector3 targetDir;
+            targetDir = new Vector3(transform.position.x - character.transform.position.x, 0f,
+                                    transform.position.z - character.transform.position.z);
 
-            character.transform.rotation = this.transform.rotation;
+            Quaternion rot = Quaternion.LookRotation(targetDir);
+            character.transform.rotation = Quaternion.Slerp(character.transform.rotation, rot, 0.05f);
+            character.transform.Translate(Vector3.forward * 0.01f);
 
-        }
-        if(Vector3.Distance(character.transform.position, this.transform.position) > 3)
-        {
-            anim.SetBool("isSleeping", false);
-            anim.SetBool("isWalking", true);
+            if (Vector3.Distance(character.transform.position, this.transform.position) < 1.55)
+            {
+                anim.SetTrigger("isSleeping");
+
+                character.transform.rotation = this.transform.rotation;
+
+                isWalkingTowards = false;
+                sleepingOn = true;
+            }
+
         }
     }
 }

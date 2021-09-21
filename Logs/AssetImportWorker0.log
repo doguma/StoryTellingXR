@@ -300,3 +300,4 @@ Received Import Request.
   path: Assets/Hannah/assets/mixamo/Farming Pack/holding turn left.fbx
   artifactKey: Guid(d09523b87b9d64bdaa29259f3224f8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Hannah/assets/mixamo/Farming Pack/holding turn left.fbx using Guid(d09523b87b9d64bdaa29259f3224f8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9cad508939bc8f6de12016af3b9056') in 0.008931 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

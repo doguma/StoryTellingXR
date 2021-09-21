@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 2420015939507325190}
   - component: {fileID: 2420015939507325186}
   - component: {fileID: 2420015939507325185}
-  - component: {fileID: -6262959854177298366}
   m_Layer: 0
   m_Name: NetworkCube
   m_TagString: movable
@@ -112,8 +111,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NetworkInstanceId: 0
-  PrefabHash: 11793726458943922353
-  PrefabHashGenerator: Cube (2)
+  PrefabHash: 12633868921373379845
+  PrefabHashGenerator: netCUbe
   AlwaysReplicateAsRoot: 0
   DontDestroyWithOwner: 0
 --- !u!114 &2420015939507325185
@@ -164,15 +163,3 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-6262959854177298366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2420015939507325188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d7ebad3669f2c346ae3ec02efd09394, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

@@ -4,15 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - movable
+  - Pickup
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - 
   - Water
   - UI
-  - Ground
+  - 
   - 
   - 
   - 

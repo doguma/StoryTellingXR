@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Kamil/Scenes/Main Menu.unity
+    guid: 9a2ae6a46eb6a994696d9614edcdf94a
+  - enabled: 1
+    path: Assets/Kamil/Scenes/Scene 1.unity
+    guid: baabc46837646cc4fa02577e578fac4d
+  - enabled: 1
+    path: Assets/Kamil/Scenes/Scene 2.unity
+    guid: f1faad45d20ee9346bffa627c49433b5
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

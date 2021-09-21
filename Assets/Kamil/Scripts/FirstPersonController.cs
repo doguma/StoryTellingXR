@@ -4,15 +4,20 @@ using UnityEngine;
 using MLAPI;
 using MLAPI.Messaging;
 using MLAPI.Connection;
+using MLAPI.NetworkVariable;
+using MLAPI.SceneManagement;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(CharacterController))]
 public class FirstPersonController : NetworkBehaviour
 {
+    /////
     bool doLog = true;
+    /////
 
     float yVelocity = 0f;
     [Range(5f, 25f)]
-    public float gravity = 15f;
+    public float gravity = 1f;
     [Range(5f, 15f)]
     public float movementSpeed = 10f;
     [Range(5f, 15f)]
@@ -40,8 +45,10 @@ public class FirstPersonController : NetworkBehaviour
 
     ulong clientID;
 
+    private Animator animator;
     private void Start()
     {
+
         clientID = NetworkManager.Singleton.LocalClientId;
 
         playerCamera = GetComponentInChildren<Camera>();
@@ -50,44 +57,63 @@ public class FirstPersonController : NetworkBehaviour
 
         if (IsLocalPlayer)
         {
-            cc = GetComponent<CharacterController>();
 
+            cc = GetComponent<CharacterController>();
+            animator = GetComponent<Animator>();
         }
         else
         {
             cameraTransform.gameObject.SetActive(false);
-
         }
     }
 
     void Update()
     {
+        if (this.transform.position.y < -10)
+        {
+            gameObject.transform.position = new Vector3(0, 1, 0);
+            return;
+        }
         if (IsLocalPlayer)
         {
-            Look();
+            if (Input.GetKeyDown("escape"))
+            {
+                //Screen.lockCursor = false;
+                Cursor.lockState = CursorLockMode.None;
+            }
+            else if (Input.GetMouseButtonDown(0))
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+
+            if (Cursor.lockState == CursorLockMode.Locked)
+            {
+                Look();
+            }
+
             Move();
 
             Ray ray = playerCamera.ScreenPointToRay(Input.mousePosition);
+            ray = playerCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
             RaycastHit hit;
 
             Debug.DrawRay(ray.origin, ray.direction * 1, Color.yellow);
 
+
             if (Input.GetKeyUp("e"))
             {
-                Log("Got e");
-                
+
                 if (holdingItem)
                 {
                     DropItem();
                     Log("Holding item, dropping");
                     holdingItem = false;
                     heldItem = null;
-                    
+
 
                 }
-                if (Physics.Raycast(ray, out hit))
+                else if (Physics.Raycast(ray, out hit))
                 {
-                    Log("did raycast");
 
                     Transform objHit = hit.transform;
 
@@ -117,20 +143,25 @@ public class FirstPersonController : NetworkBehaviour
 
 
         }
+        else
+        {
+            //if not local player
+        }
 
-        
+
+
         void PickUp(Transform t)
         {
+
             NetworkObject tnet = t.GetComponent<NetworkObject>();
 
 
-            if(!tnet.IsOwner)
+            if (!tnet.IsOwner)
             {
-                ServerRPCTakeOwnerServerRpc(tnet.NetworkObjectId, clientID);
+                TakeOwnerServerRpc(tnet.NetworkObjectId, clientID);
                 //tnet.ChangeOwnership(this.OwnerClientId);
             }
 
-            Log(t.parent);
             heldItemParent = t.parent;
             t.SetParent(cameraTransform);
             print("held parent is " + heldItemParent);
@@ -155,34 +186,57 @@ public class FirstPersonController : NetworkBehaviour
 
         void Move()
         {
+            Vector3 move = Vector3.zero;
+            yVelocity -= gravity * Time.deltaTime;
+            move.y = yVelocity;
+            cc.Move(move * Time.deltaTime);
+
             Vector3 input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+
+            if (input.x > 0.01 || input.z > 0.01 || input.x < -0.01 || input.z < -0.01)
+            {
+                animator.SetBool("walking", true);
+            }
+            else
+            {
+                animator.SetBool("walking", false);
+            }
+
             input = Vector3.ClampMagnitude(input, 1f);
-            Vector3 move = transform.TransformVector(input) * movementSpeed;
+            move = transform.TransformVector(input) * movementSpeed;
+
+
+
             if (cc.isGrounded)
             {
+                animator.SetBool("jumping", false);
                 yVelocity = -gravity * Time.deltaTime;
                 //check for jump here
                 if (Input.GetButtonDown("Jump"))
                 {
                     yVelocity = jumpSpeed;
+                    animator.SetBool("jumping", true);
                 }
             }
-            yVelocity -= gravity * Time.deltaTime;
+
             move.y = yVelocity;
             cc.Move(move * Time.deltaTime);
+
+            if (cc.velocity.x == 0 && cc.velocity.z == 0)
+            {
+                animator.SetBool("walking", false);
+            }
         }
+
 
 
 
     }
 
-
-
     [ServerRpc]
-    public void ServerRPCTakeOwnerServerRpc(ulong networkID,  ulong ownerID)
+    public void TakeOwnerServerRpc(ulong networkID, ulong ownerID)
     {
-        Log("Holy fuck please work");
-        foreach(GameObject i in (GameObject.FindGameObjectsWithTag("movable")))
+        foreach (GameObject i in (GameObject.FindGameObjectsWithTag("movable")))
         {
             NetworkObject iNet = i.GetComponent<NetworkObject>();
             if (iNet.NetworkObjectId == networkID)
@@ -208,4 +262,18 @@ public class FirstPersonController : NetworkBehaviour
             Debug.Log(msg);
         }
     }
+
+    [ServerRpc]
+    public void switchSceneServerRpc(string scene)
+    {
+        NetworkSceneManager.SwitchScene(scene);
+
+    }
+
+
+
+
+
+
+
 }

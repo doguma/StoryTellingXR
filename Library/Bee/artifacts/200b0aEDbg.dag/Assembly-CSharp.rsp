@@ -350,16 +350,14 @@
 "Assets/Hannah/assets/brackeys_asset/PlayerController.cs"
 "Assets/Hannah/scripts/AINavigationControl.cs"
 "Assets/Hannah/scripts/CameraController.cs"
+"Assets/Hannah/scripts/HoldOn.cs"
 "Assets/Hannah/scripts/IdleWalk.cs"
 "Assets/Hannah/scripts/LayOn.cs"
 "Assets/Hannah/scripts/SitOn.cs"
 "Assets/Hannah/scripts/sitOn2.cs"
+"Assets/Kamil/Scripts/changeScene.cs"
 "Assets/Kamil/Scripts/FirstPersonController.cs"
-"Assets/Kamil/Scripts/GameManager.cs"
 "Assets/Kamil/Scripts/NetworkController.cs"
-"Assets/Kamil/Scripts/Player.cs"
-"Assets/Kamil/Scripts/randomColor.cs"
-"Assets/Kamil/Scripts/UIManager.cs"
 -langversion:8.0
 
 /deterministic

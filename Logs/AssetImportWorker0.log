@@ -1,0 +1,302 @@
+Using pre-set license
+Pro License: NO
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/doguma/Documents/GitHub/VR_StoryTelling
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55024
+Successfully changed project path to: /Users/doguma/Documents/GitHub/VR_StoryTelling
+/Users/doguma/Documents/GitHub/VR_StoryTelling
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 181.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.13f1 (a03098edbbe0)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/doguma/Documents/GitHub/VR_StoryTelling/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-09-21 14:33:45.052 Unity[6596:8363702] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2021-09-21 14:33:45.052 Unity[6596:8363702] Metal devices available: 2
+2021-09-21 14:33:45.052 Unity[6596:8363702] 0: AMD Radeon Pro 5500M (high power)
+2021-09-21 14:33:45.052 Unity[6596:8363702] 1: Intel(R) UHD Graphics 630 (low power)
+2021-09-21 14:33:45.053 Unity[6596:8363702] Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001801 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 116.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.388 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4389ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (658ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016349 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/doguma/Documents/GitHub/VR_StoryTelling/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/doguma/Documents/GitHub/VR_StoryTelling/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.822 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1823ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1540ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (561ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (602ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (471ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3541 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.0 MB.
+System memory in use after: 228.2 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3984.
+Total: 2.904643 ms (FindLiveObjects: 0.321305 ms CreateObjectMapping: 0.215184 ms MarkObjects: 2.301087 ms  DeleteObjects: 0.065454 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.5 MB.
+System memory in use after: 158.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3984.
+Total: 1.977370 ms (FindLiveObjects: 0.215168 ms CreateObjectMapping: 0.131275 ms MarkObjects: 1.614998 ms  DeleteObjects: 0.015277 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/box idle.fbx
+  artifactKey: Guid(1ad8a9e11b5d5407b9f56ff194cc6da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/box idle.fbx using Guid(1ad8a9e11b5d5407b9f56ff194cc6da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c994cd6904f618d16fa877835baf53d9') in 0.877139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/dig and plant seeds.fbx
+  artifactKey: Guid(353d15768525e4177b6ec9e593320021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/dig and plant seeds.fbx using Guid(353d15768525e4177b6ec9e593320021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccbffe15530d165822eb34206dc80c8') in 0.008900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/pull plant (2).fbx
+  artifactKey: Guid(c5ef4588a25864cc8a0783605be42497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/pull plant (2).fbx using Guid(c5ef4588a25864cc8a0783605be42497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3a54f4b5bc8578bac83ef6abb50551') in 0.008313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/pick fruit (3).fbx
+  artifactKey: Guid(c33964366fc54457881ea14dd34c4dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/pick fruit (3).fbx using Guid(c33964366fc54457881ea14dd34c4dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73939a18dce15760972a8eb04192e134') in 0.009047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/plant tree.fbx
+  artifactKey: Guid(41a90e7fe50df4851b098b544bbc9a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/plant tree.fbx using Guid(41a90e7fe50df4851b098b544bbc9a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc23260348841e21fe1abc11f306693') in 0.008741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/kneeling idle.fbx
+  artifactKey: Guid(98ef588312e314824b75df3627954cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/kneeling idle.fbx using Guid(98ef588312e314824b75df3627954cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcb6aae16f2f738973575f42f2b79f3') in 0.007223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/holding walk.fbx
+  artifactKey: Guid(bbf172862e9574b259e5078382ce5b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/holding walk.fbx using Guid(bbf172862e9574b259e5078382ce5b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ffa5961906fba182595ad7b87cf0ee') in 0.007525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/pick fruit (2).fbx
+  artifactKey: Guid(2da921fd6a4d14f26bb4b0e7937fc9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/pick fruit (2).fbx using Guid(2da921fd6a4d14f26bb4b0e7937fc9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d5d638573db9fd1cf7f1aaa0735d6a') in 0.008716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk (2).fbx
+  artifactKey: Guid(7a7606958e6a54436ad3670652928e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk (2).fbx using Guid(7a7606958e6a54436ad3670652928e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173dac2ee46b9f62dd0c7b677005d4c0') in 0.006741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/box walk arc.fbx
+  artifactKey: Guid(4cd26d62679c6420790bcebd5b6bbfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/box walk arc.fbx using Guid(4cd26d62679c6420790bcebd5b6bbfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1c481e75386c40a439d4df5fcd78d7') in 0.007115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/watering.fbx
+  artifactKey: Guid(8753fe13e7abb45cebea39e9c7dbfbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/watering.fbx using Guid(8753fe13e7abb45cebea39e9c7dbfbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7954b6c1173ae18b81d3471ad7410877') in 0.007968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk turn (2).fbx
+  artifactKey: Guid(d9ca7453b0e9247b2ac8c1ae1abd558b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk turn (2).fbx using Guid(d9ca7453b0e9247b2ac8c1ae1abd558b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db09f76095dcf91ce43a6ddc445ea93') in 0.007513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk.fbx
+  artifactKey: Guid(8457528cf9f1548289ac44d13c04e4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk.fbx using Guid(8457528cf9f1548289ac44d13c04e4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9859ffcc7137e84e0d51434b8923b1c9') in 0.007348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow idle.fbx
+  artifactKey: Guid(f2177364cc0c04d7486cc85d64dc7cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow idle.fbx using Guid(f2177364cc0c04d7486cc85d64dc7cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bd6832cdcdd67b1366c85d0b6b7367') in 0.006288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/holding idle.fbx
+  artifactKey: Guid(5d3e4bbac7b6c4666a198db254cbbacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/holding idle.fbx using Guid(5d3e4bbac7b6c4666a198db254cbbacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75fdda8fdb76a56b68e97eb38a2e7de') in 0.009628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/box turn.fbx
+  artifactKey: Guid(9f87c36241796490d970bbbc9592ff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/box turn.fbx using Guid(9f87c36241796490d970bbbc9592ff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3539795ce0e839bb473a5d6702605da') in 0.008042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/box turn (2).fbx
+  artifactKey: Guid(aae4e1846b48746089737727c4a51b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/box turn (2).fbx using Guid(aae4e1846b48746089737727c4a51b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9453e0fb98db76526dafb7a49f25dd96') in 0.007233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/cow milking.fbx
+  artifactKey: Guid(79b89f6787c184b29983373861a0b3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/cow milking.fbx using Guid(79b89f6787c184b29983373861a0b3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64142532a73b37db516a4461fd3b271') in 0.007869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/pull plant.fbx
+  artifactKey: Guid(7c2efe41a2b664f2dbdb8dd541d80c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/pull plant.fbx using Guid(7c2efe41a2b664f2dbdb8dd541d80c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e80ec003572eb4c4eedf81f3a5c010') in 0.008127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/pick fruit.fbx
+  artifactKey: Guid(a2e2668aa80ac4c7399d56c9adf1a2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/pick fruit.fbx using Guid(a2e2668aa80ac4c7399d56c9adf1a2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155285e580ad7a9003bb46ca70fa7f24') in 0.009980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow dump.fbx
+  artifactKey: Guid(8d506503ffd274da88f514c5c07f36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow dump.fbx using Guid(8d506503ffd274da88f514c5c07f36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d25de1058a59f94032c5297dc5ee67') in 0.010395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/holding turn right.fbx
+  artifactKey: Guid(63cf9a3510fb1486c887bda0c0f284c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/holding turn right.fbx using Guid(63cf9a3510fb1486c887bda0c0f284c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7985f093769509c5659cbd99f5f018ad') in 0.007957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk turn.fbx
+  artifactKey: Guid(4329664b0385f41669d279f8809a7557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk turn.fbx using Guid(4329664b0385f41669d279f8809a7557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408864515e2092492ac607aa1a602f2d') in 0.007836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/plant a plant.fbx
+  artifactKey: Guid(a5790e3d040494726ae4a998caa1fb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/plant a plant.fbx using Guid(a5790e3d040494726ae4a998caa1fb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c67ebfa658532a8134e2010d82fade7') in 0.010365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Hannah/assets/mixamo/Farming Pack/holding turn left.fbx
+  artifactKey: Guid(d09523b87b9d64bdaa29259f3224f8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hannah/assets/mixamo/Farming Pack/holding turn left.fbx using Guid(d09523b87b9d64bdaa29259f3224f8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9cad508939bc8f6de12016af3b9056') in 0.008931 seconds 

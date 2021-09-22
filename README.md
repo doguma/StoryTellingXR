@@ -51,7 +51,8 @@ By using AI based walk, the character moves towards the object upon the click of
 
 ### Camera Movement
 > As of August 27th, 2021
-> - Camera following the character for user engagement
+> - Camera following the character around to enhance user engagement
+
 ![Imgur Image](https://i.imgur.com/gbyYX5N.gif)
 
 The viewer is presented with a bird-eye point of view with a fixed camera angle, which allows an objective perspective of the story. Different perspective options are to be determined.

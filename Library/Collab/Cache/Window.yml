@@ -14,68 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Hannah/assets/mixamo/Farming Pack.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/box idle.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/box idle.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/box turn (2).fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/box turn (2).fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/box turn.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/box turn.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/box walk arc.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/box walk arc.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/cow milking.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/cow milking.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/dig and plant seeds.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/dig and plant seeds.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/holding idle.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/holding idle.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/holding turn left.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/holding turn left.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/holding turn right.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/holding turn right.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/holding walk.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/holding walk.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/kneeling idle.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/kneeling idle.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/pick fruit (2).fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/pick fruit (2).fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/pick fruit (3).fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/pick fruit (3).fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/pick fruit.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/pick fruit.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/plant a plant.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/plant a plant.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/plant tree.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/plant tree.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/pull plant (2).fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/pull plant (2).fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/pull plant.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/pull plant.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/watering.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/watering.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow dump.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow dump.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow idle.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow idle.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk (2).fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk (2).fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk turn (2).fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk turn (2).fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk turn.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk turn.fbx.meta
-    - Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk.fbx
-    - Assets/Hannah/assets/mixamo/Farming Pack/wheelbarrow walk.fbx.meta
-    - Assets/Hannah/assets/mixamo/Picking Up.fbx
-    - Assets/Hannah/assets/mixamo/Picking Up.fbx.meta
-    - Assets/Hannah/assets/mixamo/Putting Down.fbx
-    - Assets/Hannah/assets/mixamo/Putting Down.fbx.meta
-    - Assets/Hannah/assets/mixamo/main_animations.controller
-    - Assets/Hannah/scenes/Scene Indoor.unity
-    - Assets/Hannah/scripts/HoldOn.cs
-    - Assets/Hannah/scripts/HoldOn.cs.meta
-    - ProjectSettings/ProjectVersion.txt
+    - Assets/Hannah/scripts/CameraController.cs
     - 
-    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 0101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

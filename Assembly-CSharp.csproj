@@ -68,12 +68,12 @@
     <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Scripts/NavMeshModifier.cs" />
     <Compile Include="Assets/Hannah/scripts/LayOn.cs" />
     <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Scripts/NavMeshSurface.cs" />
+    <Compile Include="Assets/Kamil/Scripts/changeScene.cs" />
     <Compile Include="Assets/Hannah/assets/brackeys_asset/PlayerController.cs" />
     <Compile Include="Assets/Kamil/Scripts/FirstPersonController.cs" />
     <Compile Include="Assets/Kamil/Scripts/NetworkController.cs" />
     <Compile Include="Assets/Hannah/scripts/sitOn2.cs" />
     <Compile Include="Assets/Hannah/scripts/SitOn.cs" />
-    <Compile Include="Assets/Kamil/Scripts/changeScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

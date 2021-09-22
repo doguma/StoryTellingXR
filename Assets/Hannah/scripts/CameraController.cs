@@ -1,37 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
 public class CameraController : MonoBehaviour
 {
-	public Transform target;
-	public Vector3 offset;
-	
-	public float zoomSpeed = 4f;
-	public float minZoom = 5f;
-	public float maxZoom = 15f;
 
-	public float pitch = 2f;
-	public float yawSpeed = 100f;
+    public GameObject player;        //Public variable to store a reference to the player game object
 
-	private float currentZoom = 10f;
-	private float yawInput = 0f;
-	public float currentYaw = 0f;
 
-	void Update()
-	{
-		currentZoom -= Input.GetAxis("Mouse ScrollWheel")*zoomSpeed;
-		currentZoom = Mathf.Clamp(currentZoom, minZoom, maxZoom);
+    private Vector3 offset;            //Private variable to store the offset distance between the player and camera
 
-		//currentYaw -= Input.GetAxis("Horizontal") * yawSpeed * Time.deltaTime;
-	}
+    // Use this for initialization
+    void Start()
+    {
+        //Calculate and store the offset value by getting the distance between the player's position and camera's position.
+        offset = transform.position - player.transform.position;
+    }
 
-	void LateUpdate()
-	{
-		transform.position = target.position - offset * currentZoom;
-		transform.LookAt(target.position + Vector3.up * pitch);    
-
-		transform.RotateAround(target.position, Vector3.up, currentYaw);
-	}
-
+    // LateUpdate is called after Update each frame
+    void LateUpdate()
+    {
+        // Set the position of the camera's transform to be the same as the player's, but offset by the calculated offset distance.
+        transform.position = player.transform.position + offset;
+    }
 }

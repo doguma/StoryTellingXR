@@ -1,5 +1,9 @@
 ﻿<Properties StartupConfiguration="{E30CC8E1-E161-C747-3581-C568212EB6B8}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Hannah/scripts/CameraController.cs">
+    <Files>
+      <File FileName="Assets/Hannah/scripts/sitOn2.cs" Line="1" Column="1" />
+      <File FileName="Assets/Hannah/scripts/CameraController.cs" Line="25" Column="2" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -7,7 +11,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Hannah" expanded="True">
                 <Node name="scripts" expanded="True">
-                  <Node name="LayOn.cs" selected="True" />
+                  <Node name="CameraController.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -18,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c7ae1ec1-175d-4949-a616-fb7c2af223ac" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2dde2cc0-8feb-45be-b096-dbd96fe16337" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

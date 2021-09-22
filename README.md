@@ -46,7 +46,7 @@ XR Storytelling Project that allows 3D VR Animations for viewers to underestand 
 
 ![Imgur Image](https://i.imgur.com/ynZcGyR.gif)
 
-By using AI based walk, the character moves towards the object upon the click of the object. Based on the proximity of the target object, the character goes through a sequence of animations (stand to sit, sitting, sit to stand) and walks away as the object actions are complete. Animations from [Mixamo](https://www.mixamo.com/#/), and character & environment models from [Meshtint](https://www.meshtint.com/) were utilized in this story. 
+By using AI based walk, the character moves towards the object upon the click of the object. Based on the proximity of the target object, the character goes through a sequence of animations (stand to sit, sitting, sit to stand) and walks away as the object actions are completed. Animations from [Mixamo](https://www.mixamo.com/#/), and character & environment models from [Meshtint](https://www.meshtint.com/) were utilized in this story. 
   
 
 ### Camera Movement

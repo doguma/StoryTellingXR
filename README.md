@@ -26,7 +26,7 @@
 <!-- Project Summary -->
 ## Project Summary
 
-XR Storytelling Project that allows 3D VR Animations for viewers to underestand the storyline while experiencing in immersed VR. This repository shows the dynamics of different animations that involves physics of AI, Waypoints & Graphs, Navigation Meshes and Finite State Machines. The animations with AI were created to depict the different types of character actions for the Storyboard via [Unity3D](https://unity.com/).
+XR Storytelling Project allows 3D VR Animations for viewers to understand the storyline while experiencing it in immersed VR. This repository shows the dynamics of different animations that involves physics of AI, Waypoints & Graphs, Navigation Meshes and Finite State Machines. The animations with AI were created to depict the different types of character actions for the Storyboard via [Unity3D](https://unity.com/).
 
 ## Prerequisites
 

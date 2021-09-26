@@ -1,11 +1,5 @@
 ﻿<Properties StartupConfiguration="{E30CC8E1-E161-C747-3581-C568212EB6B8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Hannah/assets/trajectories UnityAI/Scripts/Drive.cs">
-    <Files>
-      <File FileName="Assets/Hannah/scripts/sitOn2.cs" Line="47" Column="34" />
-      <File FileName="Assets/Hannah/assets/trajectories UnityAI/Shoot.cs" Line="57" Column="10" />
-      <File FileName="Assets/Hannah/scripts/comehere.cs" Line="14" Column="24" />
-      <File FileName="Assets/Hannah/assets/trajectories UnityAI/Scripts/Drive.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -14,9 +8,8 @@
               <Node name="Hannah" expanded="True">
                 <Node name="assets" expanded="True">
                   <Node name="trajectories UnityAI" expanded="True">
-                    <Node name="Scripts" expanded="True">
-                      <Node name="Drive.cs" selected="True" />
-                    </Node>
+                    <Node name="Scripts" expanded="True" />
+                    <Node name="Shoot.cs" selected="True" />
                   </Node>
                 </Node>
                 <Node name="scripts" expanded="True" />

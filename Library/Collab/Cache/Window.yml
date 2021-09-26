@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Hannah/scripts/CameraController.cs
+    - Assets/Hannah/scripts/sitOn2.cs
     - 
     m_Values: 0101
   RevisionSummary: 

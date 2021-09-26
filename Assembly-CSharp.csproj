@@ -74,6 +74,12 @@
     <Compile Include="Assets/Kamil/Scripts/NetworkController.cs" />
     <Compile Include="Assets/Hannah/scripts/sitOn2.cs" />
     <Compile Include="Assets/Hannah/scripts/SitOn.cs" />
+    <Compile Include="Assets/Hannah/assets/trajectories UnityAI/Scripts/Drive.cs" />
+    <Compile Include="Assets/Hannah/assets/trajectories UnityAI/Scripts/DestroyShell.cs" />
+    <Compile Include="Assets/Hannah/assets/trajectories UnityAI/Scripts/Shell.cs" />
+    <Compile Include="Assets/Hannah/assets/trajectories UnityAI/Shoot.cs" />
+    <Compile Include="Assets/Hannah/assets/trajectories UnityAI/Scripts/shellmove.cs" />
+    <Compile Include="Assets/Hannah/scripts/comehere.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

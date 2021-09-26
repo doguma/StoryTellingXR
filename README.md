@@ -17,6 +17,7 @@
       <ul>
 	  <li><a href="#Basic-animations">Basic Animations</a></li>
 	  <li><a href="#camera-movement">Camera Movement</a></li>
+	  <li><a href="#Physics-&-AI">Physics & AI</a></li>
       </ul>
     </li>
   </ol>

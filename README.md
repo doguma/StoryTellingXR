@@ -17,6 +17,7 @@
       <ul>
 	  <li><a href="#Basic-animations">Basic Animations</a></li>
 	  <li><a href="#camera-movement">Camera Movement</a></li>
+	  <li><a href="#Physics-and-AI">Physics & AI</a></li>
       </ul>
     </li>
   </ol>
@@ -55,7 +56,17 @@ By using AI based walk, the character moves towards the object upon the click of
 
 ![Imgur Image](https://i.imgur.com/gbyYX5N.gif)
 
-The viewer is presented with a bird-eye point of view with a fixed camera angle, which allows an objective perspective of the story. Different perspective options are to be determined.
+The viewer is presented with a bird-eye point of view with a fixed camera angle, which allows an semi-objective perspective of the story as the character moves around.
+
+
+### Physics and AI
+> As of Sep 10th, 2021
+> - Agent with automated targeting
+
+![Imgur Image](https://i.imgur.com/acctSEA.gif)
+
+The tank object is embedded with a script to measure Euler angles between the target (main character) and itself (main character), this angle determines the rotating direction. The trajectory of the shooting material (bullet) is also calculated with the gravity, speed, and preset angles. The physics and equation were referenced from [Unity Learn's the Physics of AI](https://learn.unity.com/project/the-physics-of-ai?uv=2019.4&courseId=5dd851beedbc2a1bf7b72bed).
+
 
 ------------
 

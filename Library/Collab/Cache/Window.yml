@@ -14,15 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Hannah/scenes/Bamboo Jungle.unity
-    - Assets/Hannah/scenes/Bamboo Jungle.unity.meta
-    - Assets/Hannah/scenes/Cliff Village.unity
-    - Assets/Hannah/scenes/Cliff Village.unity.meta
-    - Assets/Hannah/scenes/Overgrown Temple.unity
-    - Assets/Hannah/scenes/Overgrown Temple.unity.meta
     - 
-    m_Values: 01010101010101
-  RevisionSummary: distant lands asset
+    m_Values: 01
+  RevisionSummary: distant lands characters import
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0

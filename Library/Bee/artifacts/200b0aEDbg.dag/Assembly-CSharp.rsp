@@ -361,6 +361,7 @@
 "Assets/Hannah/scripts/LayOn.cs"
 "Assets/Hannah/scripts/SitOn.cs"
 "Assets/Hannah/scripts/sitOn2.cs"
+"Assets/Hannah/scripts/Waypoints.cs"
 "Assets/Kamil/Scripts/changeScene.cs"
 "Assets/Kamil/Scripts/FirstPersonController.cs"
 "Assets/Kamil/Scripts/NetworkController.cs"

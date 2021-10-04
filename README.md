@@ -18,6 +18,7 @@
 	  <li><a href="#Basic-animations">Basic Animations</a></li>
 	  <li><a href="#camera-movement">Camera Movement</a></li>
 	  <li><a href="#Physics-and-AI">Physics & AI</a></li>
+	  <li><a href="#waypoint-system">Waypoint System</a></li>
       </ul>
     </li>
   </ol>
@@ -66,6 +67,15 @@ The viewer is presented with a bird-eye point of view with a fixed camera angle,
 ![Imgur Image](https://i.imgur.com/acctSEA.gif)
 
 The tank object is embedded with a script to measure Euler angles between the target (main character) and itself (main character), this angle determines the rotating direction. The trajectory of the shooting material (bullet) is also calculated with the gravity, speed, and preset angles. The physics and equation were referenced from [Unity Learn's Physics of AI](https://learn.unity.com/project/the-physics-of-ai?uv=2019.4&courseId=5dd851beedbc2a1bf7b72bed).
+
+### Waypoint System
+> As of Sep 17th, 2021
+> - Character Navigation with Waypoint System
+
+![Imgur Image](https://i.imgur.com/QQca4Lc.gif)
+![Imgur Image](https://i.imgur.com/HZKAQ2R.gif)
+
+Character navigation led by graphs of waypoints (yellow balls for visibility) with smooth rotation. This can be also applied to non-player character/object navigation to add movement to the background objects. Unity provides simple waypoint mechanism via Vector3 distance and Quaternion rotation.
 
 
 ------------

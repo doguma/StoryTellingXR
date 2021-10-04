@@ -76,11 +76,25 @@
     <Compile Include="Assets/Hannah/assets/brackeys_asset/PlayerController.cs" />
     <Compile Include="Assets/Kamil/Scripts/FirstPersonController.cs" />
     <Compile Include="Assets/Hannah/assets/trajectories UnityAI/Scripts/DestroyShell.cs" />
+    <Compile Include="Assets/Hannah/scripts/Waypoints.cs" />
     <Compile Include="Assets/Kamil/Scripts/NetworkController.cs" />
     <Compile Include="Assets/Hannah/scripts/sitOn2.cs" />
     <Compile Include="Assets/Hannah/assets/trajectories UnityAI/Scripts/shellmove.cs" />
     <Compile Include="Assets/Hannah/scripts/SitOn.cs" />
-    <Compile Include="Assets/Hannah/scripts/Waypoints.cs" />
+    <Compile Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Utilites/Scripts/NoiseSway.cs" />
+    <Compile Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Utilites/Scripts/NoiseBounce.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Materials/Shaders/Stylized Leaves.shader" />
+    <None Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Materials/Shaders/Stylized Vine.shader" />
+    <None Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Materials/Shaders/Stylized Fog.shader" />
+    <None Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Materials/Shaders/Stylized Water.shader" />
+    <None Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Materials/Shaders/Stylized Grass.shader" />
+    <None Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Materials/Shaders/Stylized Terrain.shader" />
+    <None Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Materials/Shaders/Stylized Tree Trunk.shader" />
+    <None Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Materials/Shaders/Stylized Terrain Add Pass.shader" />
+    <None Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Materials/Shaders/Stylized Vegetation.shader" />
+    <None Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/README.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: e3b6105b820a79746a3df5005ffa2cb0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 2x1 Half Roof 1
+    100002: 2x2 Half Roof
+    100004: 2x4 Half Roof
+    100006: //RootNode
+    100008: Moon Wall 1
+    100010: Moon Wall 2
+    100012: Moon Wall 3
+    100014: Upper Molding
+    400000: 2x1 Half Roof 1
+    400002: 2x2 Half Roof
+    400004: 2x4 Half Roof
+    400006: //RootNode
+    400008: Moon Wall 1
+    400010: Moon Wall 2
+    400012: Moon Wall 3
+    400014: Upper Molding
+    2100000: Wood 1
+    2100002: Roof
+    2100004: Plaster
+    2100006: Paper
+    2100008: Wood 1.002
+    2300000: 2x1 Half Roof 1
+    2300002: 2x2 Half Roof
+    2300004: 2x4 Half Roof
+    2300006: Moon Wall 1
+    2300008: Moon Wall 2
+    2300010: Moon Wall 3
+    2300012: Upper Molding
+    3300000: 2x1 Half Roof 1
+    3300002: 2x2 Half Roof
+    3300004: 2x4 Half Roof
+    3300006: Moon Wall 1
+    3300008: Moon Wall 2
+    3300010: Moon Wall 3
+    3300012: Upper Molding
+    4300000: 2x1 Half Roof 1
+    4300002: 2x2 Half Roof
+    4300004: 2x4 Half Roof
+    4300006: Moon Wall 1
+    4300008: Moon Wall 2
+    4300010: Moon Wall 3
+    4300012: Upper Molding
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper
+    second: {fileID: 2100000, guid: e073872dc57e3934c8aac41e0eb6d1fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaster
+    second: {fileID: 2100000, guid: e303958b987ad1749bb1b3405595e84c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: e90dd8d92c20e5043a7f676cc37c78da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood 1
+    second: {fileID: 2100000, guid: 2cee96297b2045747960a4b5a03821d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood 1.002
+    second: {fileID: 2100000, guid: 2cee96297b2045747960a4b5a03821d4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

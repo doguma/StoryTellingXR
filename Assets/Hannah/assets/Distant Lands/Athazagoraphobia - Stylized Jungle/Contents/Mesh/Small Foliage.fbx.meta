@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 8bfd055ab4d2ad44db43e9f59f056855
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Feather Plant.001
+    100002: Feather Plant.002
+    100004: Fig Plant.001
+    100006: Fig Plant.002
+    100008: Fig Plant.003
+    100010: Fig Plant.004
+    100012: Fig Plant.005
+    100014: Fig Plant.006
+    100016: Fig Plant.007
+    100018: Fig Plant.008
+    100020: Ground Fern.001
+    100022: Ground Palm.001
+    100024: Ground Palm.002
+    100026: Ground Palm.003
+    100028: Ground Palm.004
+    100030: Ground Palm.005
+    100032: Monstera Plant.001
+    100034: Monstera Plant.002
+    100036: Monstera Plant.003
+    100038: Monstera Plant.004
+    100040: Monstera Plant.005
+    100042: Monstera Plant.006
+    100044: Monstera Plant.007
+    100046: Palm Fern.001
+    100048: Palm Fern.002
+    100050: Palm Fern.003
+    100052: //RootNode
+    100054: Spike Plant.001
+    100056: Spike Plant.002
+    100058: Spike Plant.003
+    100060: Spike Plant.004
+    100062: Tiny Plant.001
+    100064: Tiny Plant.002
+    100066: Tiny Plant.003
+    100068: Feather Plant 1
+    100070: Feather Plant 2
+    100072: Fig Plant 1
+    100074: Fig Plant 2
+    100076: Fig Plant 3
+    100078: Fig Plant 4
+    100080: Fig Plant 5
+    100082: Fig Plant 6
+    100084: Fig Plant 7
+    100086: Fig Plant 8
+    100088: Ground Fern 1
+    100090: Ground Palm 1
+    100092: Ground Palm 2
+    100094: Ground Palm 3
+    100096: Ground Palm 4
+    100098: Ground Palm 5
+    100100: Monstera Plant 1
+    100102: Monstera Plant 2
+    100104: Monstera Plant 3
+    100106: Monstera Plant 4
+    100108: Monstera Plant 5
+    100110: Monstera Plant 6
+    100112: Monstera Plant 7
+    100114: Palm Fern 1
+    100116: Palm Fern 2
+    100118: Palm Fern 3
+    100120: Spike Plant 1
+    100122: Spike Plant 2
+    100124: Spike Plant 3
+    100126: Spike Plant 4
+    100128: Tiny Plant 1
+    100130: Tiny Plant 2
+    100132: Tiny Plant 3
+    100134: Palm Tree 1.002
+    400000: Feather Plant.001
+    400002: Feather Plant.002
+    400004: Fig Plant.001
+    400006: Fig Plant.002
+    400008: Fig Plant.003
+    400010: Fig Plant.004
+    400012: Fig Plant.005
+    400014: Fig Plant.006
+    400016: Fig Plant.007
+    400018: Fig Plant.008
+    400020: Ground Fern.001
+    400022: Ground Palm.001
+    400024: Ground Palm.002
+    400026: Ground Palm.003
+    400028: Ground Palm.004
+    400030: Ground Palm.005
+    400032: Monstera Plant.001
+    400034: Monstera Plant.002
+    400036: Monstera Plant.003
+    400038: Monstera Plant.004
+    400040: Monstera Plant.005
+    400042: Monstera Plant.006
+    400044: Monstera Plant.007
+    400046: Palm Fern.001
+    400048: Palm Fern.002
+    400050: Palm Fern.003
+    400052: //RootNode
+    400054: Spike Plant.001
+    400056: Spike Plant.002
+    400058: Spike Plant.003
+    400060: Spike Plant.004
+    400062: Tiny Plant.001
+    400064: Tiny Plant.002
+    400066: Tiny Plant.003
+    400068: Feather Plant 1
+    400070: Feather Plant 2
+    400072: Fig Plant 1
+    400074: Fig Plant 2
+    400076: Fig Plant 3
+    400078: Fig Plant 4
+    400080: Fig Plant 5
+    400082: Fig Plant 6
+    400084: Fig Plant 7
+    400086: Fig Plant 8
+    400088: Ground Fern 1
+    400090: Ground Palm 1
+    400092: Ground Palm 2
+    400094: Ground Palm 3
+    400096: Ground Palm 4
+    400098: Ground Palm 5
+    400100: Monstera Plant 1
+    400102: Monstera Plant 2
+    400104: Monstera Plant 3
+    400106: Monstera Plant 4
+    400108: Monstera Plant 5
+    400110: Monstera Plant 6
+    400112: Monstera Plant 7
+    400114: Palm Fern 1
+    400116: Palm Fern 2
+    400118: Palm Fern 3
+    400120: Spike Plant 1
+    400122: Spike Plant 2
+    400124: Spike Plant 3
+    400126: Spike Plant 4
+    400128: Tiny Plant 1
+    400130: Tiny Plant 2
+    400132: Tiny Plant 3
+    400134: Palm Tree 1.002
+    2100000: Leaves
+    2100002: Leaves 2
+    2100004: Wood
+    2100006: Burnt
+    2300000: Feather Plant.001
+    2300002: Feather Plant.002
+    2300004: Fig Plant.001
+    2300006: Fig Plant.002
+    2300008: Fig Plant.003
+    2300010: Fig Plant.004
+    2300012: Fig Plant.005
+    2300014: Fig Plant.006
+    2300016: Fig Plant.007
+    2300018: Fig Plant.008
+    2300020: Ground Fern.001
+    2300022: Ground Palm.001
+    2300024: Ground Palm.002
+    2300026: Ground Palm.003
+    2300028: Ground Palm.004
+    2300030: Ground Palm.005
+    2300032: Monstera Plant.001
+    2300034: Monstera Plant.002
+    2300036: Monstera Plant.003
+    2300038: Monstera Plant.004
+    2300040: Monstera Plant.005
+    2300042: Monstera Plant.006
+    2300044: Monstera Plant.007
+    2300046: Palm Fern.001
+    2300048: Palm Fern.002
+    2300050: Palm Fern.003
+    2300052: Spike Plant.001
+    2300054: Spike Plant.002
+    2300056: Spike Plant.003
+    2300058: Spike Plant.004
+    2300060: Tiny Plant.001
+    2300062: Tiny Plant.002
+    2300064: Tiny Plant.003
+    2300066: Feather Plant 1
+    2300068: Feather Plant 2
+    2300070: Fig Plant 1
+    2300072: Fig Plant 2
+    2300074: Fig Plant 3
+    2300076: Fig Plant 4
+    2300078: Fig Plant 5
+    2300080: Fig Plant 6
+    2300082: Fig Plant 7
+    2300084: Fig Plant 8
+    2300086: Ground Fern 1
+    2300088: Ground Palm 1
+    2300090: Ground Palm 2
+    2300092: Ground Palm 3
+    2300094: Ground Palm 4
+    2300096: Ground Palm 5
+    2300098: Monstera Plant 1
+    2300100: Monstera Plant 2
+    2300102: Monstera Plant 3
+    2300104: Monstera Plant 4
+    2300106: Monstera Plant 5
+    2300108: Monstera Plant 6
+    2300110: Monstera Plant 7
+    2300112: Palm Fern 1
+    2300114: Palm Fern 2
+    2300116: Palm Fern 3
+    2300118: Spike Plant 1
+    2300120: Spike Plant 2
+    2300122: Spike Plant 3
+    2300124: Spike Plant 4
+    2300126: Tiny Plant 1
+    2300128: Tiny Plant 2
+    2300130: Tiny Plant 3
+    2300132: Palm Tree 1.002
+    3300000: Feather Plant.001
+    3300002: Feather Plant.002
+    3300004: Fig Plant.001
+    3300006: Fig Plant.002
+    3300008: Fig Plant.003
+    3300010: Fig Plant.004
+    3300012: Fig Plant.005
+    3300014: Fig Plant.006
+    3300016: Fig Plant.007
+    3300018: Fig Plant.008
+    3300020: Ground Fern.001
+    3300022: Ground Palm.001
+    3300024: Ground Palm.002
+    3300026: Ground Palm.003
+    3300028: Ground Palm.004
+    3300030: Ground Palm.005
+    3300032: Monstera Plant.001
+    3300034: Monstera Plant.002
+    3300036: Monstera Plant.003
+    3300038: Monstera Plant.004
+    3300040: Monstera Plant.005
+    3300042: Monstera Plant.006
+    3300044: Monstera Plant.007
+    3300046: Palm Fern.001
+    3300048: Palm Fern.002
+    3300050: Palm Fern.003
+    3300052: Spike Plant.001
+    3300054: Spike Plant.002
+    3300056: Spike Plant.003
+    3300058: Spike Plant.004
+    3300060: Tiny Plant.001
+    3300062: Tiny Plant.002
+    3300064: Tiny Plant.003
+    3300066: Feather Plant 1
+    3300068: Feather Plant 2
+    3300070: Fig Plant 1
+    3300072: Fig Plant 2
+    3300074: Fig Plant 3
+    3300076: Fig Plant 4
+    3300078: Fig Plant 5
+    3300080: Fig Plant 6
+    3300082: Fig Plant 7
+    3300084: Fig Plant 8
+    3300086: Ground Fern 1
+    3300088: Ground Palm 1
+    3300090: Ground Palm 2
+    3300092: Ground Palm 3
+    3300094: Ground Palm 4
+    3300096: Ground Palm 5
+    3300098: Monstera Plant 1
+    3300100: Monstera Plant 2
+    3300102: Monstera Plant 3
+    3300104: Monstera Plant 4
+    3300106: Monstera Plant 5
+    3300108: Monstera Plant 6
+    3300110: Monstera Plant 7
+    3300112: Palm Fern 1
+    3300114: Palm Fern 2
+    3300116: Palm Fern 3
+    3300118: Spike Plant 1
+    3300120: Spike Plant 2
+    3300122: Spike Plant 3
+    3300124: Spike Plant 4
+    3300126: Tiny Plant 1
+    3300128: Tiny Plant 2
+    3300130: Tiny Plant 3
+    3300132: Palm Tree 1.002
+    4300000: Palm Fern.003
+    4300002: Feather Plant.001
+    4300004: Ground Fern.001
+    4300006: Tiny Plant.003
+    4300008: Tiny Plant.001
+    4300010: Tiny Plant.002
+    4300012: Spike Plant.004
+    4300014: Spike Plant.001
+    4300016: Spike Plant.002
+    4300018: Spike Plant.003
+    4300020: Feather Plant.002
+    4300022: Fig Plant.008
+    4300024: Fig Plant.003
+    4300026: Fig Plant.002
+    4300028: Fig Plant.004
+    4300030: Fig Plant.005
+    4300032: Fig Plant.001
+    4300034: Fig Plant.006
+    4300036: Fig Plant.007
+    4300038: Ground Palm.005
+    4300040: Ground Palm.002
+    4300042: Ground Palm.001
+    4300044: Ground Palm.003
+    4300046: Ground Palm.004
+    4300048: Monstera Plant.007
+    4300050: Monstera Plant.002
+    4300052: Monstera Plant.003
+    4300054: Monstera Plant.004
+    4300056: Monstera Plant.005
+    4300058: Monstera Plant.006
+    4300060: Monstera Plant.001
+    4300062: Palm Fern.001
+    4300064: Palm Fern.002
+    4300066: Palm Fern 3
+    4300068: Feather Plant 1
+    4300070: Ground Fern 1
+    4300072: Tiny Plant 3
+    4300074: Tiny Plant 1
+    4300076: Tiny Plant 2
+    4300078: Spike Plant 4
+    4300080: Spike Plant 1
+    4300082: Spike Plant 2
+    4300084: Spike Plant 3
+    4300086: Feather Plant 2
+    4300088: Fig Plant 8
+    4300090: Fig Plant 3
+    4300092: Fig Plant 2
+    4300094: Fig Plant 4
+    4300096: Fig Plant 5
+    4300098: Fig Plant 1
+    4300100: Fig Plant 6
+    4300102: Fig Plant 7
+    4300104: Ground Palm 5
+    4300106: Ground Palm 2
+    4300108: Ground Palm 1
+    4300110: Ground Palm 3
+    4300112: Ground Palm 4
+    4300114: Monstera Plant 7
+    4300116: Monstera Plant 2
+    4300118: Monstera Plant 3
+    4300120: Monstera Plant 4
+    4300122: Monstera Plant 5
+    4300124: Monstera Plant 6
+    4300126: Monstera Plant 1
+    4300128: Palm Fern 1
+    4300130: Palm Fern 2
+    4300132: Palm Tree 1.002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

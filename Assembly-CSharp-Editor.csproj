@@ -64,6 +64,10 @@
     <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs" />
     <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" />
     <Compile Include="Assets/Hannah/assets/brackeys_asset/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs" />
+    <Compile Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Utilites/Editor/Abridge.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Utilites/Editor/README.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

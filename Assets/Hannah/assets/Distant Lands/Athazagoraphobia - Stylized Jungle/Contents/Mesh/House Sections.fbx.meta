@@ -1,0 +1,1193 @@
+fileFormatVersion: 2
+guid: e5ff2db5d853d9b41918ba22af32cfc0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 6x3 Floor
+    100002: 6x3 Floor Stairs 1
+    100004: 6x3 Floor Stairs 2
+    100006: 6x3 Roof 2
+    100008: 6x3 Section 1
+    100010: 6x3 Section 1.001
+    100012: 6x3 Section 2
+    100014: 6x3 Section 2.002
+    100016: 6x3 Section 3
+    100018: 6x3 Section 4
+    100020: 6x3 Section 5
+    100022: 6x3 Section 6
+    100024: 6x3 Section 7
+    100026: 6x3 Section 8
+    100028: 6x3 Unfinished 1
+    100030: 6x3 Unfinished 2
+    100032: 6x3 Unfinished 3
+    100034: 6x3 Unfinished 4
+    100036: Boardwalk 2x2
+    100038: Boardwalk Edge 1
+    100040: Boardwalk Edge 2
+    100042: Boardwalk Edge Corner
+    100044: Boardwalk Edge Exit
+    100046: Boardwalk Wide 1
+    100048: Boardwalk Wide 2
+    100050: Boardwalk Wide Corner
+    100052: Boardwalk Wide Corner Exit
+    100054: Boardwalk Wide Exit
+    100056: Boardwalk Wide Exit 2
+    100058: Bridge 1
+    100060: Door Frame 1
+    100062: Door Frame 2
+    100064: Halfwall 1
+    100066: Halfwall Door
+    100068: Halfwall Window
+    100070: //RootNode
+    100072: Large Shoji Door
+    100074: Large Shoji Door Left
+    100076: Large Shoji Door Right
+    100078: Mats
+    100080: Pillars 1
+    100082: Rigging Shelf 1
+    100084: Rigging Shelf 2
+    100086: Rigging Shelf 3
+    100088: Roof 1
+    100090: Roof 1 End
+    100092: Roof 2
+    100094: Roof 2 End
+    100096: Roof Extension 1
+    100098: Roof Extension 2
+    100100: Roof Extension Corner
+    100102: Short Bridge Support 1
+    100104: Short Bridge Support 2
+    100106: Small Shoji Door
+    100108: Small Shoji Door Left
+    100110: Small Shoji Door RIght
+    100112: Stairs 1
+    100114: Stairs 2
+    100116: Unfinished Wall 1
+    100118: Unfinished Wall 2
+    100120: Unfinished Wall 3
+    100122: Unfinished Wall 4
+    100124: Wall
+    100126: Wall Accent 1
+    100128: Wall Accent 2
+    100130: Wall Accent 3.003
+    100132: Wall Accent 4
+    100134: Wall Accent 5
+    100136: Wall Accent 6
+    100138: Wall Accent 7
+    100140: Wall Door 1
+    100142: Window 1
+    100144: Window 2
+    100146: Window Frame 1
+    100148: Window Frame 2
+    100150: Window Frame 3
+    100152: Window Frame 4
+    100154: Window Frame 5
+    100156: Window Frame 6
+    100158: Wood Floor 2x4
+    100160: Wood Floor 3x3
+    100162: Wood Floor 4x4
+    100164: 6x3 Section 2.003
+    100166: 6x6 Floor
+    100168: 6x6 Floor Stairs 1
+    100170: 6x6 Floor Stairs 2
+    100172: 6x6 Section 1
+    100174: 6x6 Section 2
+    100176: 6x6 Section 3
+    100178: 6x6 Section 4
+    100180: 6x6 Section 5
+    100182: 6x6 Section 6
+    100184: 6x6 Unfinished 1
+    100186: 6x6 Unfinished 2
+    100188: 6x6 Unfinished 3
+    100190: Large Window Pane
+    100192: Pillars 1.002
+    100194: 6x3 Roof 1
+    100196: 6x6 Roof 1
+    100198: Roof Extension 1.001
+    100200: Roof Extension 1.002
+    100202: Roof Extension 1.003
+    100204: Roof Extension 1.004
+    100206: Roof Extension 1.005
+    100208: Roof Extension 1.006
+    100210: Roof Extension 1.007
+    100212: Roof Extension 1.008
+    100214: Roof Extension 1.009
+    100216: Roof Extension 1.010
+    100218: Roof Extension 1.011
+    100220: Roof Extension 1.012
+    100222: Roof Extension 1.013
+    100224: Roof Extension 1.014
+    100226: Roof Extension 1.015
+    100228: Roof Extension 1.016
+    100230: Roof Extension 1.017
+    100232: Roof Extension 1.018
+    100234: Roof Extension 1.019
+    100236: Roof Extension 1.020
+    100238: Roof Extension 1.021
+    100240: Roof Extension 1.022
+    100242: Roof Extension 1.023
+    100244: Roof Extension Corner.001
+    100246: Roof Extension Corner.002
+    100248: Roof Extension Corner.003
+    100250: Roof Extension Corner.004
+    100252: Roof Extension Corner.005
+    100254: Roof Extension Corner.006
+    100256: Roof Extension Corner.007
+    100258: Roof Extension Corner.008
+    100260: Roof Extension Corner.009
+    100262: Roof Extension Corner.010
+    100264: Roof Extension Corner.011
+    100266: 6x6 Section 7
+    100268: ^x6 Roof Extension
+    100270: 6x6 Roof Extension
+    100272: 2x1 Floor
+    100274: 2x1 Floor Stairs 1
+    100276: 2x1 Floor Stairs 2
+    100278: 2x1 Roof 1
+    100280: 2x1 Roof 2
+    100282: 2x1 Section 1
+    100284: 2x1 Section 2
+    100286: 2x1 Section 3
+    100288: 2x1 Section 5
+    100290: 2x1 Section 6
+    100292: 6x3 Section 2.001
+    100294: Boardwalk Thin 1
+    100296: 1x1 Wood Floor
+    100298: 1x2 Floor
+    100300: 1x2 Floor Stairs 1
+    100302: 1x2 Floor Stairs 2
+    100304: 1x2 Roof 1
+    100306: 1x2 Roof 2
+    100308: 1x2 Section 1
+    100310: 1x2 Section 2
+    100312: 1x2 Section 3
+    100314: 1x2 Section 4
+    100316: 1x2 Section 5
+    100318: 1x2 Section 6
+    100320: 1x2 Section 7
+    100322: 1x2 Section 8
+    100324: 1x2 Unfinished 1
+    100326: 1x2 Unfinished 2
+    100328: 1x2 Unfinished 3
+    100330: 1x2 Unfinished 4
+    100332: 2x2 Floor
+    100334: 2x2 Floor Stairs 1
+    100336: 2x2 Floor Stairs 2
+    100338: 2x2 Roof 1
+    100340: 2x2 Roof Extension
+    100342: 2x2 Section 1
+    100344: 2x2 Section 2
+    100346: 2x2 Section 3
+    100348: 2x2 Section 4
+    100350: 2x2 Section 5
+    100352: 2x2 Section 6
+    100354: 2x2 Section 7
+    100356: 2x2 Unfinished 1
+    100358: 2x2 Unfinished 2
+    100360: 2x2 Unfinished 3
+    100362: 3x3 Pllars
+    100364: Pillar
+    100366: Wall Accent 3
+    100368: Small Shoji Door Right
+    100370: Boardwalk Support 1
+    100372: Boardwalk Support 2
+    100374: Boardwalk Wide 2.001
+    100376: Boardwalk Wide Stairs 1
+    100378: Boardwalk Wide Stairs 2
+    100380: Boardwalk Wide Corner Inside
+    100382: Boardwalk Wide Corner Inside 1
+    100384: Boardwalk Wide Corner Inside 2
+    100386: Boardwalk Edge Stairs 1
+    100388: Boardwalk Edge Stairs 2
+    100390: Boardwalk Rail 1
+    100392: Boardwalk Rail 2
+    100394: Boardwalk Rail Corner
+    100396: Boardwalk Rail Exit
+    100398: Boardwalk Rail Exit 2
+    100400: Boardwalk Rail Thin 1
+    100402: Boardwalk Stairs 1
+    100404: Boardwalk Stairs 2
+    100406: .5x.5 Wood Floor
+    100408: .5x1 Wood Floor
+    100410: Boardwalk Stairs Curved
+    100412: Bridge 1.001
+    100414: Curved Bridge 1
+    100416: Curved Bridge 2
+    100418: Bridge Stairs
+    100420: 3x3 Roof Extension
+    100422: 4x4 Roof Extension
+    100424: 5x5 Roof Extension
+    100426: 4x4 Pllars
+    100428: 3x3 Pllars 2
+    100430: 2x2 Pllars
+    400000: 6x3 Floor
+    400002: 6x3 Floor Stairs 1
+    400004: 6x3 Floor Stairs 2
+    400006: 6x3 Roof 2
+    400008: 6x3 Section 1
+    400010: 6x3 Section 1.001
+    400012: 6x3 Section 2
+    400014: 6x3 Section 2.002
+    400016: 6x3 Section 3
+    400018: 6x3 Section 4
+    400020: 6x3 Section 5
+    400022: 6x3 Section 6
+    400024: 6x3 Section 7
+    400026: 6x3 Section 8
+    400028: 6x3 Unfinished 1
+    400030: 6x3 Unfinished 2
+    400032: 6x3 Unfinished 3
+    400034: 6x3 Unfinished 4
+    400036: Boardwalk 2x2
+    400038: Boardwalk Edge 1
+    400040: Boardwalk Edge 2
+    400042: Boardwalk Edge Corner
+    400044: Boardwalk Edge Exit
+    400046: Boardwalk Wide 1
+    400048: Boardwalk Wide 2
+    400050: Boardwalk Wide Corner
+    400052: Boardwalk Wide Corner Exit
+    400054: Boardwalk Wide Exit
+    400056: Boardwalk Wide Exit 2
+    400058: Bridge 1
+    400060: Door Frame 1
+    400062: Door Frame 2
+    400064: Halfwall 1
+    400066: Halfwall Door
+    400068: Halfwall Window
+    400070: //RootNode
+    400072: Large Shoji Door
+    400074: Large Shoji Door Left
+    400076: Large Shoji Door Right
+    400078: Mats
+    400080: Pillars 1
+    400082: Rigging Shelf 1
+    400084: Rigging Shelf 2
+    400086: Rigging Shelf 3
+    400088: Roof 1
+    400090: Roof 1 End
+    400092: Roof 2
+    400094: Roof 2 End
+    400096: Roof Extension 1
+    400098: Roof Extension 2
+    400100: Roof Extension Corner
+    400102: Short Bridge Support 1
+    400104: Short Bridge Support 2
+    400106: Small Shoji Door
+    400108: Small Shoji Door Left
+    400110: Small Shoji Door RIght
+    400112: Stairs 1
+    400114: Stairs 2
+    400116: Unfinished Wall 1
+    400118: Unfinished Wall 2
+    400120: Unfinished Wall 3
+    400122: Unfinished Wall 4
+    400124: Wall
+    400126: Wall Accent 1
+    400128: Wall Accent 2
+    400130: Wall Accent 3.003
+    400132: Wall Accent 4
+    400134: Wall Accent 5
+    400136: Wall Accent 6
+    400138: Wall Accent 7
+    400140: Wall Door 1
+    400142: Window 1
+    400144: Window 2
+    400146: Window Frame 1
+    400148: Window Frame 2
+    400150: Window Frame 3
+    400152: Window Frame 4
+    400154: Window Frame 5
+    400156: Window Frame 6
+    400158: Wood Floor 2x4
+    400160: Wood Floor 3x3
+    400162: Wood Floor 4x4
+    400164: 6x3 Section 2.003
+    400166: 6x6 Floor
+    400168: 6x6 Floor Stairs 1
+    400170: 6x6 Floor Stairs 2
+    400172: 6x6 Section 1
+    400174: 6x6 Section 2
+    400176: 6x6 Section 3
+    400178: 6x6 Section 4
+    400180: 6x6 Section 5
+    400182: 6x6 Section 6
+    400184: 6x6 Unfinished 1
+    400186: 6x6 Unfinished 2
+    400188: 6x6 Unfinished 3
+    400190: Large Window Pane
+    400192: Pillars 1.002
+    400194: 6x3 Roof 1
+    400196: 6x6 Roof 1
+    400198: Roof Extension 1.001
+    400200: Roof Extension 1.002
+    400202: Roof Extension 1.003
+    400204: Roof Extension 1.004
+    400206: Roof Extension 1.005
+    400208: Roof Extension 1.006
+    400210: Roof Extension 1.007
+    400212: Roof Extension 1.008
+    400214: Roof Extension 1.009
+    400216: Roof Extension 1.010
+    400218: Roof Extension 1.011
+    400220: Roof Extension 1.012
+    400222: Roof Extension 1.013
+    400224: Roof Extension 1.014
+    400226: Roof Extension 1.015
+    400228: Roof Extension 1.016
+    400230: Roof Extension 1.017
+    400232: Roof Extension 1.018
+    400234: Roof Extension 1.019
+    400236: Roof Extension 1.020
+    400238: Roof Extension 1.021
+    400240: Roof Extension 1.022
+    400242: Roof Extension 1.023
+    400244: Roof Extension Corner.001
+    400246: Roof Extension Corner.002
+    400248: Roof Extension Corner.003
+    400250: Roof Extension Corner.004
+    400252: Roof Extension Corner.005
+    400254: Roof Extension Corner.006
+    400256: Roof Extension Corner.007
+    400258: Roof Extension Corner.008
+    400260: Roof Extension Corner.009
+    400262: Roof Extension Corner.010
+    400264: Roof Extension Corner.011
+    400266: 6x6 Section 7
+    400268: ^x6 Roof Extension
+    400270: 6x6 Roof Extension
+    400272: 2x1 Floor
+    400274: 2x1 Floor Stairs 1
+    400276: 2x1 Floor Stairs 2
+    400278: 2x1 Roof 1
+    400280: 2x1 Roof 2
+    400282: 2x1 Section 1
+    400284: 2x1 Section 2
+    400286: 2x1 Section 3
+    400288: 2x1 Section 5
+    400290: 2x1 Section 6
+    400292: 6x3 Section 2.001
+    400294: Boardwalk Thin 1
+    400296: 1x1 Wood Floor
+    400298: 1x2 Floor
+    400300: 1x2 Floor Stairs 1
+    400302: 1x2 Floor Stairs 2
+    400304: 1x2 Roof 1
+    400306: 1x2 Roof 2
+    400308: 1x2 Section 1
+    400310: 1x2 Section 2
+    400312: 1x2 Section 3
+    400314: 1x2 Section 4
+    400316: 1x2 Section 5
+    400318: 1x2 Section 6
+    400320: 1x2 Section 7
+    400322: 1x2 Section 8
+    400324: 1x2 Unfinished 1
+    400326: 1x2 Unfinished 2
+    400328: 1x2 Unfinished 3
+    400330: 1x2 Unfinished 4
+    400332: 2x2 Floor
+    400334: 2x2 Floor Stairs 1
+    400336: 2x2 Floor Stairs 2
+    400338: 2x2 Roof 1
+    400340: 2x2 Roof Extension
+    400342: 2x2 Section 1
+    400344: 2x2 Section 2
+    400346: 2x2 Section 3
+    400348: 2x2 Section 4
+    400350: 2x2 Section 5
+    400352: 2x2 Section 6
+    400354: 2x2 Section 7
+    400356: 2x2 Unfinished 1
+    400358: 2x2 Unfinished 2
+    400360: 2x2 Unfinished 3
+    400362: 3x3 Pllars
+    400364: Pillar
+    400366: Wall Accent 3
+    400368: Small Shoji Door Right
+    400370: Boardwalk Support 1
+    400372: Boardwalk Support 2
+    400374: Boardwalk Wide 2.001
+    400376: Boardwalk Wide Stairs 1
+    400378: Boardwalk Wide Stairs 2
+    400380: Boardwalk Wide Corner Inside
+    400382: Boardwalk Wide Corner Inside 1
+    400384: Boardwalk Wide Corner Inside 2
+    400386: Boardwalk Edge Stairs 1
+    400388: Boardwalk Edge Stairs 2
+    400390: Boardwalk Rail 1
+    400392: Boardwalk Rail 2
+    400394: Boardwalk Rail Corner
+    400396: Boardwalk Rail Exit
+    400398: Boardwalk Rail Exit 2
+    400400: Boardwalk Rail Thin 1
+    400402: Boardwalk Stairs 1
+    400404: Boardwalk Stairs 2
+    400406: .5x.5 Wood Floor
+    400408: .5x1 Wood Floor
+    400410: Boardwalk Stairs Curved
+    400412: Bridge 1.001
+    400414: Curved Bridge 1
+    400416: Curved Bridge 2
+    400418: Bridge Stairs
+    400420: 3x3 Roof Extension
+    400422: 4x4 Roof Extension
+    400424: 5x5 Roof Extension
+    400426: 4x4 Pllars
+    400428: 3x3 Pllars 2
+    400430: 2x2 Pllars
+    2100000: Wood 1
+    2100002: Plaster
+    2100004: No Name
+    2100006: Paper
+    2100008: Roof
+    2300000: 6x3 Floor
+    2300002: 6x3 Floor Stairs 1
+    2300004: 6x3 Floor Stairs 2
+    2300006: 6x3 Roof 2
+    2300008: 6x3 Section 1
+    2300010: 6x3 Section 1.001
+    2300012: 6x3 Section 2
+    2300014: 6x3 Section 2.002
+    2300016: 6x3 Section 3
+    2300018: 6x3 Section 4
+    2300020: 6x3 Section 5
+    2300022: 6x3 Section 6
+    2300024: 6x3 Section 7
+    2300026: 6x3 Section 8
+    2300028: 6x3 Unfinished 1
+    2300030: 6x3 Unfinished 2
+    2300032: 6x3 Unfinished 3
+    2300034: 6x3 Unfinished 4
+    2300036: Boardwalk 2x2
+    2300038: Boardwalk Edge 1
+    2300040: Boardwalk Edge 2
+    2300042: Boardwalk Edge Corner
+    2300044: Boardwalk Edge Exit
+    2300046: Boardwalk Wide 1
+    2300048: Boardwalk Wide 2
+    2300050: Boardwalk Wide Corner
+    2300052: Boardwalk Wide Corner Exit
+    2300054: Boardwalk Wide Exit
+    2300056: Boardwalk Wide Exit 2
+    2300058: Bridge 1
+    2300060: Door Frame 1
+    2300062: Door Frame 2
+    2300064: Halfwall 1
+    2300066: Halfwall Door
+    2300068: Halfwall Window
+    2300070: Large Shoji Door
+    2300072: Large Shoji Door Left
+    2300074: Large Shoji Door Right
+    2300076: Mats
+    2300078: Pillars 1
+    2300080: Rigging Shelf 1
+    2300082: Rigging Shelf 2
+    2300084: Rigging Shelf 3
+    2300086: Roof 1
+    2300088: Roof 1 End
+    2300090: Roof 2
+    2300092: Roof 2 End
+    2300094: Roof Extension 1
+    2300096: Roof Extension 2
+    2300098: Roof Extension Corner
+    2300100: Short Bridge Support 1
+    2300102: Short Bridge Support 2
+    2300104: Small Shoji Door
+    2300106: Small Shoji Door Left
+    2300108: Small Shoji Door RIght
+    2300110: Stairs 1
+    2300112: Stairs 2
+    2300114: Unfinished Wall 1
+    2300116: Unfinished Wall 2
+    2300118: Unfinished Wall 3
+    2300120: Unfinished Wall 4
+    2300122: Wall
+    2300124: Wall Accent 1
+    2300126: Wall Accent 2
+    2300128: Wall Accent 3.003
+    2300130: Wall Accent 4
+    2300132: Wall Accent 5
+    2300134: Wall Accent 6
+    2300136: Wall Accent 7
+    2300138: Wall Door 1
+    2300140: Window 1
+    2300142: Window 2
+    2300144: Window Frame 1
+    2300146: Window Frame 2
+    2300148: Window Frame 3
+    2300150: Window Frame 4
+    2300152: Window Frame 5
+    2300154: Window Frame 6
+    2300156: Wood Floor 2x4
+    2300158: Wood Floor 3x3
+    2300160: Wood Floor 4x4
+    2300162: 6x3 Section 2.003
+    2300164: 6x6 Floor
+    2300166: 6x6 Floor Stairs 1
+    2300168: 6x6 Floor Stairs 2
+    2300170: 6x6 Section 1
+    2300172: 6x6 Section 2
+    2300174: 6x6 Section 3
+    2300176: 6x6 Section 4
+    2300178: 6x6 Section 5
+    2300180: 6x6 Section 6
+    2300182: 6x6 Unfinished 1
+    2300184: 6x6 Unfinished 2
+    2300186: 6x6 Unfinished 3
+    2300188: Large Window Pane
+    2300190: Pillars 1.002
+    2300192: 6x3 Roof 1
+    2300194: 6x6 Roof 1
+    2300196: Roof Extension 1.001
+    2300198: Roof Extension 1.002
+    2300200: Roof Extension 1.003
+    2300202: Roof Extension 1.004
+    2300204: Roof Extension 1.005
+    2300206: Roof Extension 1.006
+    2300208: Roof Extension 1.007
+    2300210: Roof Extension 1.008
+    2300212: Roof Extension 1.009
+    2300214: Roof Extension 1.010
+    2300216: Roof Extension 1.011
+    2300218: Roof Extension 1.012
+    2300220: Roof Extension 1.013
+    2300222: Roof Extension 1.014
+    2300224: Roof Extension 1.015
+    2300226: Roof Extension 1.016
+    2300228: Roof Extension 1.017
+    2300230: Roof Extension 1.018
+    2300232: Roof Extension 1.019
+    2300234: Roof Extension 1.020
+    2300236: Roof Extension 1.021
+    2300238: Roof Extension 1.022
+    2300240: Roof Extension 1.023
+    2300242: Roof Extension Corner.001
+    2300244: Roof Extension Corner.002
+    2300246: Roof Extension Corner.003
+    2300248: Roof Extension Corner.004
+    2300250: Roof Extension Corner.005
+    2300252: Roof Extension Corner.006
+    2300254: Roof Extension Corner.007
+    2300256: Roof Extension Corner.008
+    2300258: Roof Extension Corner.009
+    2300260: Roof Extension Corner.010
+    2300262: Roof Extension Corner.011
+    2300264: 6x6 Section 7
+    2300266: ^x6 Roof Extension
+    2300268: 6x6 Roof Extension
+    2300270: 2x1 Floor
+    2300272: 2x1 Floor Stairs 1
+    2300274: 2x1 Floor Stairs 2
+    2300276: 2x1 Roof 1
+    2300278: 2x1 Roof 2
+    2300280: 2x1 Section 1
+    2300282: 2x1 Section 2
+    2300284: 2x1 Section 3
+    2300286: 2x1 Section 5
+    2300288: 2x1 Section 6
+    2300290: 6x3 Section 2.001
+    2300292: Boardwalk Thin 1
+    2300294: 1x1 Wood Floor
+    2300296: 1x2 Floor
+    2300298: 1x2 Floor Stairs 1
+    2300300: 1x2 Floor Stairs 2
+    2300302: 1x2 Roof 1
+    2300304: 1x2 Roof 2
+    2300306: 1x2 Section 1
+    2300308: 1x2 Section 2
+    2300310: 1x2 Section 3
+    2300312: 1x2 Section 4
+    2300314: 1x2 Section 5
+    2300316: 1x2 Section 6
+    2300318: 1x2 Section 7
+    2300320: 1x2 Section 8
+    2300322: 1x2 Unfinished 1
+    2300324: 1x2 Unfinished 2
+    2300326: 1x2 Unfinished 3
+    2300328: 1x2 Unfinished 4
+    2300330: 2x2 Floor
+    2300332: 2x2 Floor Stairs 1
+    2300334: 2x2 Floor Stairs 2
+    2300336: 2x2 Roof 1
+    2300338: 2x2 Roof Extension
+    2300340: 2x2 Section 1
+    2300342: 2x2 Section 2
+    2300344: 2x2 Section 3
+    2300346: 2x2 Section 4
+    2300348: 2x2 Section 5
+    2300350: 2x2 Section 6
+    2300352: 2x2 Section 7
+    2300354: 2x2 Unfinished 1
+    2300356: 2x2 Unfinished 2
+    2300358: 2x2 Unfinished 3
+    2300360: 3x3 Pllars
+    2300362: Pillar
+    2300364: Wall Accent 3
+    2300366: Small Shoji Door Right
+    2300368: Boardwalk Support 1
+    2300370: Boardwalk Support 2
+    2300372: Boardwalk Wide 2.001
+    2300374: Boardwalk Wide Stairs 1
+    2300376: Boardwalk Wide Stairs 2
+    2300378: Boardwalk Wide Corner Inside
+    2300380: Boardwalk Wide Corner Inside 1
+    2300382: Boardwalk Wide Corner Inside 2
+    2300384: Boardwalk Edge Stairs 1
+    2300386: Boardwalk Edge Stairs 2
+    2300388: Boardwalk Rail 1
+    2300390: Boardwalk Rail 2
+    2300392: Boardwalk Rail Corner
+    2300394: Boardwalk Rail Exit
+    2300396: Boardwalk Rail Exit 2
+    2300398: Boardwalk Rail Thin 1
+    2300400: Boardwalk Stairs 1
+    2300402: Boardwalk Stairs 2
+    2300404: .5x.5 Wood Floor
+    2300406: .5x1 Wood Floor
+    2300408: Boardwalk Stairs Curved
+    2300410: Bridge 1.001
+    2300412: Curved Bridge 1
+    2300414: Curved Bridge 2
+    2300416: Bridge Stairs
+    2300418: 3x3 Roof Extension
+    2300420: 4x4 Roof Extension
+    2300422: 5x5 Roof Extension
+    2300424: 4x4 Pllars
+    2300426: 3x3 Pllars 2
+    2300428: 2x2 Pllars
+    3300000: 6x3 Floor
+    3300002: 6x3 Floor Stairs 1
+    3300004: 6x3 Floor Stairs 2
+    3300006: 6x3 Roof 2
+    3300008: 6x3 Section 1
+    3300010: 6x3 Section 1.001
+    3300012: 6x3 Section 2
+    3300014: 6x3 Section 2.002
+    3300016: 6x3 Section 3
+    3300018: 6x3 Section 4
+    3300020: 6x3 Section 5
+    3300022: 6x3 Section 6
+    3300024: 6x3 Section 7
+    3300026: 6x3 Section 8
+    3300028: 6x3 Unfinished 1
+    3300030: 6x3 Unfinished 2
+    3300032: 6x3 Unfinished 3
+    3300034: 6x3 Unfinished 4
+    3300036: Boardwalk 2x2
+    3300038: Boardwalk Edge 1
+    3300040: Boardwalk Edge 2
+    3300042: Boardwalk Edge Corner
+    3300044: Boardwalk Edge Exit
+    3300046: Boardwalk Wide 1
+    3300048: Boardwalk Wide 2
+    3300050: Boardwalk Wide Corner
+    3300052: Boardwalk Wide Corner Exit
+    3300054: Boardwalk Wide Exit
+    3300056: Boardwalk Wide Exit 2
+    3300058: Bridge 1
+    3300060: Door Frame 1
+    3300062: Door Frame 2
+    3300064: Halfwall 1
+    3300066: Halfwall Door
+    3300068: Halfwall Window
+    3300070: Large Shoji Door
+    3300072: Large Shoji Door Left
+    3300074: Large Shoji Door Right
+    3300076: Mats
+    3300078: Pillars 1
+    3300080: Rigging Shelf 1
+    3300082: Rigging Shelf 2
+    3300084: Rigging Shelf 3
+    3300086: Roof 1
+    3300088: Roof 1 End
+    3300090: Roof 2
+    3300092: Roof 2 End
+    3300094: Roof Extension 1
+    3300096: Roof Extension 2
+    3300098: Roof Extension Corner
+    3300100: Short Bridge Support 1
+    3300102: Short Bridge Support 2
+    3300104: Small Shoji Door
+    3300106: Small Shoji Door Left
+    3300108: Small Shoji Door RIght
+    3300110: Stairs 1
+    3300112: Stairs 2
+    3300114: Unfinished Wall 1
+    3300116: Unfinished Wall 2
+    3300118: Unfinished Wall 3
+    3300120: Unfinished Wall 4
+    3300122: Wall
+    3300124: Wall Accent 1
+    3300126: Wall Accent 2
+    3300128: Wall Accent 3.003
+    3300130: Wall Accent 4
+    3300132: Wall Accent 5
+    3300134: Wall Accent 6
+    3300136: Wall Accent 7
+    3300138: Wall Door 1
+    3300140: Window 1
+    3300142: Window 2
+    3300144: Window Frame 1
+    3300146: Window Frame 2
+    3300148: Window Frame 3
+    3300150: Window Frame 4
+    3300152: Window Frame 5
+    3300154: Window Frame 6
+    3300156: Wood Floor 2x4
+    3300158: Wood Floor 3x3
+    3300160: Wood Floor 4x4
+    3300162: 6x3 Section 2.003
+    3300164: 6x6 Floor
+    3300166: 6x6 Floor Stairs 1
+    3300168: 6x6 Floor Stairs 2
+    3300170: 6x6 Section 1
+    3300172: 6x6 Section 2
+    3300174: 6x6 Section 3
+    3300176: 6x6 Section 4
+    3300178: 6x6 Section 5
+    3300180: 6x6 Section 6
+    3300182: 6x6 Unfinished 1
+    3300184: 6x6 Unfinished 2
+    3300186: 6x6 Unfinished 3
+    3300188: Large Window Pane
+    3300190: Pillars 1.002
+    3300192: 6x3 Roof 1
+    3300194: 6x6 Roof 1
+    3300196: Roof Extension 1.001
+    3300198: Roof Extension 1.002
+    3300200: Roof Extension 1.003
+    3300202: Roof Extension 1.004
+    3300204: Roof Extension 1.005
+    3300206: Roof Extension 1.006
+    3300208: Roof Extension 1.007
+    3300210: Roof Extension 1.008
+    3300212: Roof Extension 1.009
+    3300214: Roof Extension 1.010
+    3300216: Roof Extension 1.011
+    3300218: Roof Extension 1.012
+    3300220: Roof Extension 1.013
+    3300222: Roof Extension 1.014
+    3300224: Roof Extension 1.015
+    3300226: Roof Extension 1.016
+    3300228: Roof Extension 1.017
+    3300230: Roof Extension 1.018
+    3300232: Roof Extension 1.019
+    3300234: Roof Extension 1.020
+    3300236: Roof Extension 1.021
+    3300238: Roof Extension 1.022
+    3300240: Roof Extension 1.023
+    3300242: Roof Extension Corner.001
+    3300244: Roof Extension Corner.002
+    3300246: Roof Extension Corner.003
+    3300248: Roof Extension Corner.004
+    3300250: Roof Extension Corner.005
+    3300252: Roof Extension Corner.006
+    3300254: Roof Extension Corner.007
+    3300256: Roof Extension Corner.008
+    3300258: Roof Extension Corner.009
+    3300260: Roof Extension Corner.010
+    3300262: Roof Extension Corner.011
+    3300264: 6x6 Section 7
+    3300266: ^x6 Roof Extension
+    3300268: 6x6 Roof Extension
+    3300270: 2x1 Floor
+    3300272: 2x1 Floor Stairs 1
+    3300274: 2x1 Floor Stairs 2
+    3300276: 2x1 Roof 1
+    3300278: 2x1 Roof 2
+    3300280: 2x1 Section 1
+    3300282: 2x1 Section 2
+    3300284: 2x1 Section 3
+    3300286: 2x1 Section 5
+    3300288: 2x1 Section 6
+    3300290: 6x3 Section 2.001
+    3300292: Boardwalk Thin 1
+    3300294: 1x1 Wood Floor
+    3300296: 1x2 Floor
+    3300298: 1x2 Floor Stairs 1
+    3300300: 1x2 Floor Stairs 2
+    3300302: 1x2 Roof 1
+    3300304: 1x2 Roof 2
+    3300306: 1x2 Section 1
+    3300308: 1x2 Section 2
+    3300310: 1x2 Section 3
+    3300312: 1x2 Section 4
+    3300314: 1x2 Section 5
+    3300316: 1x2 Section 6
+    3300318: 1x2 Section 7
+    3300320: 1x2 Section 8
+    3300322: 1x2 Unfinished 1
+    3300324: 1x2 Unfinished 2
+    3300326: 1x2 Unfinished 3
+    3300328: 1x2 Unfinished 4
+    3300330: 2x2 Floor
+    3300332: 2x2 Floor Stairs 1
+    3300334: 2x2 Floor Stairs 2
+    3300336: 2x2 Roof 1
+    3300338: 2x2 Roof Extension
+    3300340: 2x2 Section 1
+    3300342: 2x2 Section 2
+    3300344: 2x2 Section 3
+    3300346: 2x2 Section 4
+    3300348: 2x2 Section 5
+    3300350: 2x2 Section 6
+    3300352: 2x2 Section 7
+    3300354: 2x2 Unfinished 1
+    3300356: 2x2 Unfinished 2
+    3300358: 2x2 Unfinished 3
+    3300360: 3x3 Pllars
+    3300362: Pillar
+    3300364: Wall Accent 3
+    3300366: Small Shoji Door Right
+    3300368: Boardwalk Support 1
+    3300370: Boardwalk Support 2
+    3300372: Boardwalk Wide 2.001
+    3300374: Boardwalk Wide Stairs 1
+    3300376: Boardwalk Wide Stairs 2
+    3300378: Boardwalk Wide Corner Inside
+    3300380: Boardwalk Wide Corner Inside 1
+    3300382: Boardwalk Wide Corner Inside 2
+    3300384: Boardwalk Edge Stairs 1
+    3300386: Boardwalk Edge Stairs 2
+    3300388: Boardwalk Rail 1
+    3300390: Boardwalk Rail 2
+    3300392: Boardwalk Rail Corner
+    3300394: Boardwalk Rail Exit
+    3300396: Boardwalk Rail Exit 2
+    3300398: Boardwalk Rail Thin 1
+    3300400: Boardwalk Stairs 1
+    3300402: Boardwalk Stairs 2
+    3300404: .5x.5 Wood Floor
+    3300406: .5x1 Wood Floor
+    3300408: Boardwalk Stairs Curved
+    3300410: Bridge 1.001
+    3300412: Curved Bridge 1
+    3300414: Curved Bridge 2
+    3300416: Bridge Stairs
+    3300418: 3x3 Roof Extension
+    3300420: 4x4 Roof Extension
+    3300422: 5x5 Roof Extension
+    3300424: 4x4 Pllars
+    3300426: 3x3 Pllars 2
+    3300428: 2x2 Pllars
+    4300000: 6x3 Section 1
+    4300002: Boardwalk 2x2
+    4300004: Boardwalk Edge 1
+    4300006: Boardwalk Edge 2
+    4300008: Boardwalk Edge Corner
+    4300010: Boardwalk Edge Exit
+    4300012: Boardwalk Wide 1
+    4300014: Boardwalk Wide 2
+    4300016: Boardwalk Wide Corner
+    4300018: Boardwalk Wide Corner Exit
+    4300020: Boardwalk Wide Exit
+    4300022: Boardwalk Wide Exit 2
+    4300024: Bridge 1
+    4300026: Door Frame 1
+    4300028: Door Frame 2
+    4300030: 6x3 Section 8
+    4300032: Halfwall 1
+    4300034: Halfwall Door
+    4300036: Halfwall Window
+    4300038: Large Shoji Door
+    4300040: Large Shoji Door Left
+    4300042: Large Shoji Door Right
+    4300044: Mats
+    4300046: Pillars 1
+    4300048: Rigging Shelf 1
+    4300050: Rigging Shelf 2
+    4300052: Rigging Shelf 3
+    4300054: Roof 1
+    4300056: Roof 1 End
+    4300058: Roof 2
+    4300060: Roof 2 End
+    4300062: Roof Extension 1
+    4300064: Roof Extension 2
+    4300066: Roof Extension Corner
+    4300068: Short Bridge Support 1
+    4300070: Short Bridge Support 2
+    4300072: Small Shoji Door
+    4300074: Small Shoji Door Left
+    4300076: Small Shoji Door RIght
+    4300078: Stairs 1
+    4300080: Unfinished Wall 1
+    4300082: Unfinished Wall 2
+    4300084: Unfinished Wall 3
+    4300086: Unfinished Wall 4
+    4300088: Wall
+    4300090: Wall Accent 1
+    4300092: Wall Accent 2
+    4300094: Wall Accent 4
+    4300096: Wall Accent 5
+    4300098: Wall Accent 6
+    4300100: Wall Accent 7
+    4300102: Wall Door 1
+    4300104: Window 1
+    4300106: Window 2
+    4300108: Window Frame 1
+    4300110: Window Frame 2
+    4300112: Window Frame 3
+    4300114: Window Frame 4
+    4300116: Window Frame 5
+    4300118: Window Frame 6
+    4300120: Wood Floor 2x4
+    4300122: Wood Floor 3x3
+    4300124: Wood Floor 4x4
+    4300126: 6x3 Floor
+    4300128: 6x3 Roof 2
+    4300130: 6x3 Floor Stairs 1
+    4300132: Stairs 2
+    4300134: 6x3 Floor Stairs 2
+    4300136: 6x3 Section 2
+    4300138: 6x3 Section 3
+    4300140: 6x3 Section 2.002
+    4300142: 6x3 Unfinished 1
+    4300144: 6x3 Unfinished 2
+    4300146: 6x3 Unfinished 3
+    4300148: 6x3 Unfinished 4
+    4300150: 6x3 Section 4
+    4300152: 6x3 Section 7
+    4300154: Wall Accent 3.003
+    4300156: 6x3 Section 5
+    4300158: 6x3 Section 6
+    4300160: 6x3 Section 1.001
+    4300162: Large Window Pane
+    4300164: 6x6 Section 1
+    4300166: 6x3 Section 2.003
+    4300168: Pillars 1.002
+    4300170: 6x6 Floor
+    4300172: 6x6 Floor Stairs 1
+    4300174: 6x6 Section 2
+    4300176: 6x6 Section 3
+    4300178: 6x6 Section 5
+    4300180: 6x6 Section 4
+    4300182: 6x6 Section 6
+    4300184: 6x6 Unfinished 1
+    4300186: 6x6 Unfinished 2
+    4300188: 6x6 Unfinished 3
+    4300190: 6x6 Floor Stairs 2
+    4300192: 6x3 Roof 1
+    4300194: 6x6 Roof 1
+    4300196: Roof Extension 1.001
+    4300198: Roof Extension Corner.001
+    4300200: Roof Extension 1.002
+    4300202: Roof Extension 1.003
+    4300204: Roof Extension 1.004
+    4300206: Roof Extension Corner.002
+    4300208: Roof Extension 1.005
+    4300210: Roof Extension Corner.003
+    4300212: Roof Extension 1.006
+    4300214: Roof Extension 1.007
+    4300216: Roof Extension 1.008
+    4300218: Roof Extension Corner.004
+    4300220: Roof Extension 1.009
+    4300222: Roof Extension Corner.005
+    4300224: Roof Extension 1.010
+    4300226: Roof Extension 1.011
+    4300228: Roof Extension 1.012
+    4300230: Roof Extension Corner.006
+    4300232: Roof Extension 1.013
+    4300234: Roof Extension Corner.007
+    4300236: Roof Extension 1.014
+    4300238: Roof Extension 1.015
+    4300240: Roof Extension 1.016
+    4300242: Roof Extension Corner.008
+    4300244: Roof Extension 1.017
+    4300246: Roof Extension Corner.009
+    4300248: Roof Extension 1.018
+    4300250: Roof Extension 1.019
+    4300252: Roof Extension 1.020
+    4300254: Roof Extension Corner.010
+    4300256: Roof Extension 1.021
+    4300258: Roof Extension Corner.011
+    4300260: Roof Extension 1.022
+    4300262: Roof Extension 1.023
+    4300264: ^x6 Roof Extension
+    4300266: 6x6 Section 7
+    4300268: 6x6 Roof Extension
+    4300270: 2x1 Section 1
+    4300272: 2x1 Roof 1
+    4300274: 2x1 Floor
+    4300276: 2x1 Roof 2
+    4300278: 2x1 Floor Stairs 1
+    4300280: 2x1 Floor Stairs 2
+    4300282: 2x1 Section 2
+    4300284: 2x1 Section 3
+    4300286: 2x1 Section 5
+    4300288: 2x1 Section 6
+    4300290: 6x3 Section 2.001
+    4300292: Boardwalk Thin 1
+    4300294: 1x2 Section 1
+    4300296: 1x2 Section 8
+    4300298: 1x2 Roof 1
+    4300300: 1x1 Wood Floor
+    4300302: 1x2 Floor
+    4300304: 1x2 Roof 2
+    4300306: 1x2 Floor Stairs 1
+    4300308: 1x2 Floor Stairs 2
+    4300310: 1x2 Section 2
+    4300312: 1x2 Section 3
+    4300314: 1x2 Unfinished 1
+    4300316: 1x2 Unfinished 2
+    4300318: 1x2 Unfinished 3
+    4300320: 1x2 Unfinished 4
+    4300322: 1x2 Section 4
+    4300324: 1x2 Section 7
+    4300326: Wall Accent 3
+    4300328: 1x2 Section 5
+    4300330: 1x2 Section 6
+    4300332: 2x2 Section 1
+    4300334: 2x2 Floor
+    4300336: 2x2 Floor Stairs 1
+    4300338: 2x2 Section 2
+    4300340: 2x2 Section 3
+    4300342: 2x2 Section 5
+    4300344: 2x2 Section 4
+    4300346: 2x2 Section 6
+    4300348: 2x2 Unfinished 1
+    4300350: 2x2 Unfinished 2
+    4300352: 2x2 Unfinished 3
+    4300354: 2x2 Floor Stairs 2
+    4300356: 2x2 Roof 1
+    4300358: 2x2 Roof Extension
+    4300360: 2x2 Section 7
+    4300362: 3x3 Pllars
+    4300364: Pillar
+    4300366: Small Shoji Door Right
+    4300368: Boardwalk Wide Stairs 1
+    4300370: Boardwalk Wide Stairs 2
+    4300372: Boardwalk Wide 2.001
+    4300374: Boardwalk Support 1
+    4300376: Boardwalk Support 2
+    4300378: Boardwalk Wide Corner Inside
+    4300380: Boardwalk Wide Corner Inside 1
+    4300382: Boardwalk Wide Corner Inside 2
+    4300384: Boardwalk Rail 1
+    4300386: Boardwalk Rail Exit
+    4300388: Boardwalk Rail Thin 1
+    4300390: Boardwalk Rail 2
+    4300392: Boardwalk Rail Exit 2
+    4300394: Boardwalk Stairs 1
+    4300396: Boardwalk Stairs 2
+    4300398: Boardwalk Rail Corner
+    4300400: Boardwalk Edge Stairs 1
+    4300402: Boardwalk Edge Stairs 2
+    4300404: .5x1 Wood Floor
+    4300406: .5x.5 Wood Floor
+    4300408: Boardwalk Stairs Curved
+    4300410: Curved Bridge 1
+    4300412: Bridge 1.001
+    4300414: Curved Bridge 2
+    4300416: Bridge Stairs
+    4300418: 3x3 Roof Extension
+    4300420: 4x4 Roof Extension
+    4300422: 5x5 Roof Extension
+    4300424: 4x4 Pllars
+    4300426: 3x3 Pllars 2
+    4300428: 2x2 Pllars
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper
+    second: {fileID: 2100000, guid: e073872dc57e3934c8aac41e0eb6d1fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaster
+    second: {fileID: 2100000, guid: e303958b987ad1749bb1b3405595e84c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: e90dd8d92c20e5043a7f676cc37c78da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood 1
+    second: {fileID: 2100000, guid: 2cee96297b2045747960a4b5a03821d4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

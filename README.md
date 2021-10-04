@@ -71,8 +71,11 @@ The tank object is embedded with a script to measure Euler angles between the ta
 ### Waypoint System
 > As of Sep 17th, 2021
 > - Character Navigation with Waypoint System
-![Imgur_Image](https://i.imgur.com/HZKAQ2R.gif)
+
+
 ![Imgur Image](https://i.imgur.com/QQca4Lc.gif)
+
+![Imgur_Image](https://i.imgur.com/HZKAQ2R.gif)
 ---
 
 

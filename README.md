@@ -75,7 +75,7 @@ The tank object is embedded with a script to measure Euler angles between the ta
 
 ![Imgur Image](https://i.imgur.com/QQca4Lc.gif)
 
-![Imgur_Image](https://i.imgur.com/HZKAQ2R.gif)
+![Imgur_Image](https://i.imgur.com/7ARYXWO.gif)
 
 
 

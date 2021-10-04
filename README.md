@@ -75,8 +75,8 @@ The tank object is embedded with a script to measure Euler angles between the ta
 
 ![Imgur Image](https://i.imgur.com/QQca4Lc.gif)
 
-![Imgur_Image](https://imgur.com/HZKAQ2R.gif)
----
+![Imgur_Image](https://i.imgur.com/HZKAQ2R.gif)
+
 
 
 Character navigation led by graphs of waypoints (yellow balls for visibility) with smooth rotation. This can be also applied to non-player character/object navigation to add movement to the background objects. Unity provides simple waypoint mechanism via Vector3 distance and Quaternion rotation.

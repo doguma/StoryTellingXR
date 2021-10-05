@@ -75,6 +75,7 @@
     <Compile Include="Assets/Hannah/scripts/comehere.cs" />
     <Compile Include="Assets/Kamil/Scripts/changeScene.cs" />
     <Compile Include="Assets/Hannah/assets/brackeys_asset/PlayerController.cs" />
+    <Compile Include="Assets/Hannah/assets/Cryptid - Low Poly Monsters/Contents/Animation/AnimateGhost.cs" />
     <Compile Include="Assets/Kamil/Scripts/FirstPersonController.cs" />
     <Compile Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Utilites/Scripts/NoiseSway.cs" />
     <Compile Include="Assets/Hannah/assets/trajectories UnityAI/Scripts/DestroyShell.cs" />
@@ -83,7 +84,6 @@
     <Compile Include="Assets/Hannah/scripts/sitOn2.cs" />
     <Compile Include="Assets/Hannah/assets/trajectories UnityAI/Scripts/shellmove.cs" />
     <Compile Include="Assets/Hannah/scripts/SitOn.cs" />
-    <Compile Include="Assets/Hannah/assets/Cryptid - Low Poly Monsters/Contents/Animation/AnimateGhost.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Hannah/assets/Distant Lands/Athazagoraphobia - Stylized Jungle/Contents/Materials/Shaders/Stylized Leaves.shader" />

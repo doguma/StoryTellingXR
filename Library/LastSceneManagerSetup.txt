@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Hannah/scenes/Bamboo Jungle.unity
+- path: Assets/Hannah/scenes/Overgrown Temple.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -14,10 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Hannah/assets/Cryptid - Low Poly Monsters/Contents/Animation/Mothman/flywalk.controller
-    - Assets/Hannah/scenes/Overgrown Temple.unity
     - 
-    m_Values: 000000
+    m_Values: 01
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

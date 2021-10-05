@@ -81,6 +81,12 @@ The tank object is embedded with a script to measure Euler angles between the ta
 
 Character navigation led by graphs of waypoints (yellow balls for visibility) with smooth rotation. This can be also applied to non-player character/object navigation to add movement to the background objects. Unity provides simple waypoint mechanism via Vector3 distance and Quaternion rotation.
 
+---
+
+Following is another example with Distant Lands asset - [Athazagoraphobia](https://assetstore.unity.com/packages/3d/environments/landscapes/athazagoraphobia-stylized-jungles-204433) and [Cryptid](https://assetstore.unity.com/packages/3d/characters/creatures/cryptid-low-poly-monsters-166160)
+
+![Imgur Image](https://i.imgur.com/YAfL1Rp.mp4)
+
 
 ------------
 

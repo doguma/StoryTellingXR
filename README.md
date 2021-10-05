@@ -85,6 +85,7 @@ Following is another example with Distant Lands asset - [Athazagoraphobia](https
 <img src="/vr story gifs/vrstory5b.gif?raw=true" width="500px">
 
 'Will-o'-the-wisp walking over the wires'
+- Waypoint works for all 3 dimensions, allowing walks on different heights and positions
 
 ------------
 

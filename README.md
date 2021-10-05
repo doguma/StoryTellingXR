@@ -85,9 +85,8 @@ Character navigation led by graphs of waypoints (yellow balls for visibility) wi
 
 Following is another example with Distant Lands asset - [Athazagoraphobia](https://assetstore.unity.com/packages/3d/environments/landscapes/athazagoraphobia-stylized-jungles-204433) and [Cryptid](https://assetstore.unity.com/packages/3d/characters/creatures/cryptid-low-poly-monsters-166160)
 
-![Imgur Image](https://i.imgur.com/CRvX3MC.gif)
-![Imgur Image](https://i.imgur.com/DukWSIu.gif)
-
+<img src="/vr story gifs/vr_gif5a.gif?raw=true" width="200px">
+<img src="/vr story gifs/vr_gif5b.gif?raw=true" width="200px">
 'Will the Wisp walking over the wires'
 
 ------------

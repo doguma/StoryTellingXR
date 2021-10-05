@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 15b206d7a3b1d9045befe772d39ce3ff
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Left Wing
+    100002: Left Wing_end
+    100004: LowManHead
+    100006: LowManHead_end
+    100008: LowManHips
+    100010: LowManLeftArm
+    100012: LowManLeftFoot
+    100014: LowManLeftForeArm
+    100016: LowManLeftHand
+    100018: LowManLeftHandMiddle1
+    100020: LowManLeftHandMiddle2
+    100022: LowManLeftHandMiddle2_end
+    100024: LowManLeftHandThumb1
+    100026: LowManLeftHandThumb1_end
+    100028: LowManLeftLeg
+    100030: LowManLeftShoulder
+    100032: LowManLeftToeBase
+    100034: LowManLeftToeBase_end
+    100036: LowManLeftUpLeg
+    100038: LowManNeck
+    100040: LowManRightArm
+    100042: LowManRightFoot
+    100044: LowManRightForeArm
+    100046: LowManRightHand
+    100048: LowManRightHandMiddle1
+    100050: LowManRightHandMiddle2
+    100052: LowManRightHandMiddle2_end
+    100054: LowManRightHandThumb1
+    100056: LowManRightHandThumb1_end
+    100058: LowManRightLeg
+    100060: LowManRightShoulder
+    100062: LowManRightToeBase
+    100064: LowManRightToeBase_end
+    100066: LowManRightUpLeg
+    100068: LowManSpine
+    100070: LowManSpine1
+    100072: LowManSpine2
+    100074: Moth Wings
+    100076: Mothman
+    100078: //RootNode
+    100080: Mothman Mesh
+    100082: Right Wing
+    100084: Right Wing_end
+    100086: Wings Mesh
+    400000: Left Wing
+    400002: Left Wing_end
+    400004: LowManHead
+    400006: LowManHead_end
+    400008: LowManHips
+    400010: LowManLeftArm
+    400012: LowManLeftFoot
+    400014: LowManLeftForeArm
+    400016: LowManLeftHand
+    400018: LowManLeftHandMiddle1
+    400020: LowManLeftHandMiddle2
+    400022: LowManLeftHandMiddle2_end
+    400024: LowManLeftHandThumb1
+    400026: LowManLeftHandThumb1_end
+    400028: LowManLeftLeg
+    400030: LowManLeftShoulder
+    400032: LowManLeftToeBase
+    400034: LowManLeftToeBase_end
+    400036: LowManLeftUpLeg
+    400038: LowManNeck
+    400040: LowManRightArm
+    400042: LowManRightFoot
+    400044: LowManRightForeArm
+    400046: LowManRightHand
+    400048: LowManRightHandMiddle1
+    400050: LowManRightHandMiddle2
+    400052: LowManRightHandMiddle2_end
+    400054: LowManRightHandThumb1
+    400056: LowManRightHandThumb1_end
+    400058: LowManRightLeg
+    400060: LowManRightShoulder
+    400062: LowManRightToeBase
+    400064: LowManRightToeBase_end
+    400066: LowManRightUpLeg
+    400068: LowManSpine
+    400070: LowManSpine1
+    400072: LowManSpine2
+    400074: Moth Wings
+    400076: //RootNode
+    400078: Mothman
+    400080: Mothman Mesh
+    400082: Right Wing
+    400084: Right Wing_end
+    400086: Wings Mesh
+    2100000: Mothman
+    2100002: Eye
+    2100004: Wing 2
+    2100006: Wing 1
+    4300000: Mothman Mesh
+    4300002: Wings Mesh
+    9500000: //RootNode
+    13700000: Mothman Mesh
+    13700002: Wings Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye
+    second: {fileID: 2100000, guid: 342e246c8955703409455a377f29fbbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mothman
+    second: {fileID: 2100000, guid: 48e856a8f7a55f0409624797f2ec6057, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wing 1
+    second: {fileID: 2100000, guid: 1792fde02926f84408eea9cb8a0299ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wing 2
+    second: {fileID: 2100000, guid: 3d7a5fab5fd682a43a7cc12f021c300f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

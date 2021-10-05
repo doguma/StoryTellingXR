@@ -4,7 +4,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="VR_StoryTelling" expanded="True">
-            <Node name="Assets" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
               <Node name="Hannah" expanded="True">
                 <Node name="assets" expanded="True">
                   <Node name="Distant Lands" expanded="True">
@@ -14,9 +14,7 @@
                     <Node name="Scripts" expanded="True" />
                   </Node>
                 </Node>
-                <Node name="scripts" expanded="True">
-                  <Node name="comehere.cs" selected="True" />
-                </Node>
+                <Node name="scripts" expanded="True" />
               </Node>
             </Node>
           </Node>

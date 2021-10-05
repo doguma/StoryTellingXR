@@ -85,7 +85,7 @@ Following is another example with Distant Lands asset - [Athazagoraphobia](https
 
 <img src="/vr story gifs/vr_gif5a.gif?raw=true" height="300px"> <img src="/vr story gifs/vr_gif5b.gif?raw=true" height="300px">
 
-'Will the Wisp walking over the wires'
+'Will-o'-the-wisp walking over the wires'
 
 ------------
 

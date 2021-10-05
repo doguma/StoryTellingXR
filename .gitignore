@@ -18,13 +18,13 @@
 ![Aa]ssets/**/*.meta
 
 brackeys_asset/
-Cryptid - Low Poly Monsters
-Distant Lands
-Distant Lands Free Characters
-meshtint_asset
-Meshtint Free Super Ward Pack
-mixamo
-trajectories UnityAI
+Cryptid - Low Poly Monsters/
+Distant Lands/
+Distant Lands Free Characters/
+meshtint_asset/
+Meshtint Free Super Ward Pack/
+mixamo/
+trajectories UnityAI/
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -60,6 +60,8 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+
+*.prefab.meta
 
 # Unity3D generated file on crash reports
 sysinfo.txt

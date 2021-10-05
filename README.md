@@ -93,7 +93,7 @@ References :
 - Brackeys
 - Wizards Code
 - Unity Learn (Artificial Intelligence for Beginners)
-- Distand Lands
+- Distant Lands
 
 
 

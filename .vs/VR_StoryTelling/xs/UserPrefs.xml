@@ -1,10 +1,14 @@
 ﻿<Properties StartupConfiguration="{E30CC8E1-E161-C747-3581-C568212EB6B8}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Hannah/scripts/Waypoints.cs">
+    <Files>
+      <File FileName="Library/PackageCache/com.unity.ide.visualstudio@2.0.9/Editor/VisualStudioIntegration.cs" Line="149" Column="1" />
+      <File FileName="Assets/Hannah/scripts/Waypoints.cs" Line="8" Column="23" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="VR_StoryTelling" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
               <Node name="Hannah" expanded="True">
                 <Node name="assets" expanded="True">
                   <Node name="Distant Lands" expanded="True">
@@ -14,7 +18,9 @@
                     <Node name="Scripts" expanded="True" />
                   </Node>
                 </Node>
-                <Node name="scripts" expanded="True" />
+                <Node name="scripts" expanded="True">
+                  <Node name="Waypoints.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -24,7 +30,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="aca8b5ae-f136-4146-8b91-5c43fe3a0455" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d4e8cf0e-bc3f-440c-840e-3bb7e9c82c27" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

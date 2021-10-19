@@ -1,9 +1,18 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class Waypoints : MonoBehaviour
 {
+
+    IEnumerator IdleTime()
+    {
+        yield return new WaitForSeconds(5);
+    }
+
     public GameObject[] waypoints;
     int currentWP = 0;
     bool isWalkingTowards = false;
@@ -23,20 +32,20 @@ public class Waypoints : MonoBehaviour
     void Update()
     {
         if (Vector3.Distance(this.transform.position, waypoints[currentWP].transform.position) < 1)
+            
             currentWP++;
 
         if (currentWP >= waypoints.Length)
             currentWP = 0;
 
-        if (Vector3.Distance(this.transform.position, sittingpoint.transform.position) < 1)
+        if (currentWP >= 6)
         {
+            //speed = 0;
+            //IdleTime();
+            //speed = 1;
             anim.SetBool("flying", false);
+            anim.SetBool("jumping", true);
         }
-        else
-        {
-            anim.SetBool("flying", true);
-        }
-
 
         Quaternion lookatWP = Quaternion.LookRotation(waypoints[currentWP].transform.position - this.transform.position);
 

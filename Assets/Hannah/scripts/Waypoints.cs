@@ -38,7 +38,7 @@ public class Waypoints : MonoBehaviour
         if (currentWP >= waypoints.Length)
             currentWP = 0;
 
-        if (currentWP >= 6)
+        if (currentWP >= 1)
         {
             //speed = 0;
             //IdleTime();

@@ -6,12 +6,6 @@ using UnityEngine;
 
 public class Waypoints : MonoBehaviour
 {
-
-    IEnumerator IdleTime()
-    {
-        yield return new WaitForSeconds(5);
-    }
-
     public GameObject[] waypoints;
     int currentWP = 0;
 
@@ -22,52 +16,91 @@ public class Waypoints : MonoBehaviour
     public float rotSpeed = 3.0f;
 
     private float curTime;
-    private float pauseDuration = 3;
+    private float pauseDuration = 2;
+    private bool loop = true;
 
-    // Start is called before the first frame update
     void Start()
     {
         anim.SetBool("flying", true);
+        anim.SetBool("idle", false);
     }
 
-    // Update is called once per frame
+
     void Update()
     {
+        if (currentWP < 6)
+        {
+            patrol();
+
+        }
+        else if (currentWP < 12)
+        {
+            jump();
+        }
+        else if (currentWP < waypoints.Length)
+        {
+            patrol();
+        }
+        else
+        {
+            if (loop)
+            {
+                currentWP = 0;
+            }
+        }
+    }
+
+    void patrol()
+    {
+        anim.SetBool("jumping", false);
+        anim.SetBool("flying", true);
+        anim.SetBool("idle", false);
+
+        Vector3 target = waypoints[currentWP].transform.position;
 
         if (Vector3.Distance(this.transform.position, waypoints[currentWP].transform.position) < 1)
-            currentWP++;
-
-        if (currentWP >= waypoints.Length)
-            currentWP = 0;
-
-        if (curTime == 0)
         {
-            curTime = Time.time; // Pause over the Waypoint
-            if ((Time.time - curTime) >= pauseDuration)
-            {
-                curTime = 0;
-            }
+            currentWP++;
+        }
+        else
+        {
+            Quaternion lookAtWP = Quaternion.LookRotation(target - transform.position);
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookAtWP, Time.deltaTime * rotSpeed);
+            this.transform.Translate(0, 0, speed * Time.deltaTime);
+        }
+    }
 
-            if (currentWP >= 6 && currentWP < 12)
-            {
 
-                anim.SetBool("flying", false);
-                anim.SetBool("jumping", true);
-            }
-            else if (currentWP >= 12)
+    void jump()
+    {
+        anim.SetBool("flying", false);
+        anim.SetBool("jumping", true);
+        anim.SetBool("idle", false);
+
+        Vector3 target = waypoints[currentWP].transform.position;
+
+        if (Vector3.Distance(this.transform.position, waypoints[currentWP].transform.position) < 1)
+        {
+            if (curTime == 0)
             {
-                anim.SetBool("flying", true);
                 anim.SetBool("jumping", false);
+                anim.SetBool("idle", true);
+                curTime = Time.time;
+            }
+            else if ((Time.time - curTime) >= pauseDuration)
+            {
+                anim.SetBool("jumping", true);
+                anim.SetBool("idle", false);
+                currentWP++;
+                curTime = 0;
             }
         }
         else
         {
-            Quaternion lookatWP = Quaternion.LookRotation(waypoints[currentWP].transform.position - this.transform.position);
-
-            this.transform.rotation = Quaternion.Slerp(this.transform.rotation, lookatWP, rotSpeed * Time.deltaTime);
-
+            Quaternion lookAtWP = Quaternion.LookRotation(target - transform.position);
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookAtWP, Time.deltaTime * rotSpeed);
             this.transform.Translate(0, 0, speed * Time.deltaTime);
-
         }
+        
     }
 }

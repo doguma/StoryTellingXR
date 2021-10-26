@@ -27,38 +27,55 @@ public class Waypoints : MonoBehaviour
 
     void Update()
     {
-        if (currentWP < 7)
+        if (currentWP < 6)
         {
+            anim.SetBool("flying", true);
+            anim.SetBool("jumping", false);
             patrol();
-
         }
-        else if (currentWP < 10)
+        else if (currentWP == 6)
         {
+            idle();
+        }
+        else if (currentWP < 13)
+        {
+            anim.SetBool("flying", false);
+            anim.SetBool("jumping", true);
             jump();
         }
-        else if (currentWP < waypoints.Length)
+        else if (currentWP < waypoints.Length - 1)
         {
+            anim.SetBool("jumping", false);
+            anim.SetBool("flying", true);
+            speed = 0.5f;
             patrol();
         }
         else
         {
-            if (loop)
-            {
-                currentWP = 0;
-            }
+            anim.SetBool("jumping", false);
+            anim.SetBool("flying", false);
+            anim.SetBool("happy", true);
+            happy_idle();
         }
     }
 
-    void patrol()
+    void idle()
     {
-        anim.SetBool("jumping", false);
-        anim.SetBool("flying", true);
-
         Vector3 target = waypoints[currentWP].transform.position;
 
         if (Vector3.Distance(this.transform.position, waypoints[currentWP].transform.position) < 1)
         {
-            currentWP++;
+            if (curTime == 0)
+            {
+                anim.SetBool("jumping", false);
+                anim.SetBool("flying", false);
+                curTime = Time.time;
+            }
+            else if ((Time.time - curTime) >= 2)
+            {
+                currentWP++;
+                curTime = 0;
+            }
         }
         else
         {
@@ -68,12 +85,8 @@ public class Waypoints : MonoBehaviour
         }
     }
 
-
-    void jump()
+    void happy_idle()
     {
-        anim.SetBool("flying", false);
-        anim.SetBool("jumping", true);
-
         Vector3 target = waypoints[currentWP].transform.position;
 
         if (Vector3.Distance(this.transform.position, waypoints[currentWP].transform.position) < 1)
@@ -81,11 +94,53 @@ public class Waypoints : MonoBehaviour
             if (curTime == 0)
             {
                 anim.SetBool("jumping", false);
+                anim.SetBool("flying", false);
+                curTime = Time.time;
+            }
+            else if ((Time.time - curTime) >= 30)
+            {
+                curTime = 0;
+            }
+        }
+        else
+        {
+            Quaternion lookAtWP = Quaternion.LookRotation(target - transform.position);
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookAtWP, Time.deltaTime * rotSpeed);
+            this.transform.Translate(0, 0, speed * Time.deltaTime);
+        }
+    }
+
+    void patrol()
+    {
+
+        Vector3 target = waypoints[currentWP].transform.position;
+
+        if (Vector3.Distance(this.transform.position, waypoints[currentWP].transform.position) >= 1)
+        {
+            Quaternion lookAtWP = Quaternion.LookRotation(target - transform.position);
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookAtWP, Time.deltaTime * rotSpeed);
+            this.transform.Translate(0, 0, speed * Time.deltaTime);
+        }
+        else
+        {
+            currentWP++;
+        }
+    }
+
+
+    void jump()
+    {
+        Vector3 target = waypoints[currentWP].transform.position;
+
+        if (Vector3.Distance(this.transform.position, waypoints[currentWP].transform.position) < 1)
+        {
+            if (curTime == 0)
+            {
+
                 curTime = Time.time;
             }
             else if ((Time.time - curTime) >= pauseDuration)
             {
-                anim.SetBool("jumping", true);
                 currentWP++;
                 curTime = 0;
             }

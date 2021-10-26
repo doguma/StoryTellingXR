@@ -15,10 +15,11 @@ MonoBehaviour:
   SimpleSelectedItems:
     m_Keys:
     - Assets/Hannah/assets/Cryptid - Low Poly Monsters/Contents/Animation/Mothman/flywalk.controller
+    - Assets/Hannah/assets/mixamo/Jump 1.fbx.meta
     - Assets/Hannah/scenes/Overgrown Temple.unity
     - Assets/Hannah/scripts/Waypoints.cs
     - 
-    m_Values: 00000000
+    m_Values: 0000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

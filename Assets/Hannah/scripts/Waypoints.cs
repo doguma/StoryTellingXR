@@ -11,6 +11,7 @@ public class Waypoints : MonoBehaviour
 
     public Animator anim;
     public GameObject sittingpoint;
+    public Rigidbody body;
 
     public float speed = 2.0f;
     public float rotSpeed = 3.0f;
@@ -22,6 +23,7 @@ public class Waypoints : MonoBehaviour
     void Start()
     {
         anim.SetBool("flying", true);
+        body = GetComponent<Rigidbody>();
     }
 
 
@@ -37,18 +39,24 @@ public class Waypoints : MonoBehaviour
         {
             idle();
         }
-        else if (currentWP < 13)
+        else if (currentWP < 12)
         {
             anim.SetBool("flying", false);
             anim.SetBool("jumping", true);
             jump();
+        }
+        else if (currentWP == 12)
+        {
+            anim.SetBool("jumping", false);
+            anim.SetBool("flying", true);
+            idle();
         }
         else if (currentWP < waypoints.Length - 2)
         {
             anim.SetBool("jumping", false);
             anim.SetBool("flying", true);
             speed = 0.5f;
-            patrol();
+            patrol_g();
         }
         else
         {
@@ -136,10 +144,9 @@ public class Waypoints : MonoBehaviour
         {
             if (curTime == 0)
             {
-
                 curTime = Time.time;
             }
-            else if ((Time.time - curTime) >= pauseDuration)
+            else if ((Time.time - curTime) >= 2)
             {
                 currentWP++;
                 curTime = 0;
@@ -152,5 +159,23 @@ public class Waypoints : MonoBehaviour
             this.transform.Translate(0, 0, speed * Time.deltaTime);
         }
         
+    }
+
+    void patrol_g()
+    {
+
+        Vector3 target = waypoints[currentWP].transform.position;
+        body.useGravity = true;
+
+        if (Vector3.Distance(this.transform.position, waypoints[currentWP].transform.position) >= 1)
+        {
+            Quaternion lookAtWP = Quaternion.LookRotation(target - transform.position);
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookAtWP, Time.deltaTime * rotSpeed);
+            this.transform.Translate(0, 0, speed * Time.deltaTime);
+        }
+        else
+        {
+            currentWP++;
+        }
     }
 }

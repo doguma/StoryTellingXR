@@ -43,7 +43,7 @@ public class Waypoints : MonoBehaviour
             anim.SetBool("jumping", true);
             jump();
         }
-        else if (currentWP < waypoints.Length - 1)
+        else if (currentWP < waypoints.Length - 2)
         {
             anim.SetBool("jumping", false);
             anim.SetBool("flying", true);

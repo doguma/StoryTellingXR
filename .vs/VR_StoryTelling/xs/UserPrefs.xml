@@ -13,12 +13,13 @@
                   <Node name="Distant Lands" expanded="True">
                     <Node name="Athazagoraphobia - Stylized Jungle" expanded="True" />
                   </Node>
-                  <Node name="Meshtint Free Super Ward Pack" selected="True" />
                   <Node name="trajectories UnityAI" expanded="True">
                     <Node name="Scripts" expanded="True" />
                   </Node>
                 </Node>
-                <Node name="scripts" expanded="True" />
+                <Node name="scripts" expanded="True">
+                  <Node name="Waypoints.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -28,7 +29,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f95b6c6b-6fde-477b-a517-5323bfd9157c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0276de2f-c12b-4a20-9057-aad9f3f2d0a2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -16,7 +16,7 @@ public class Waypoints : MonoBehaviour
     public float rotSpeed = 3.0f;
 
     private float curTime;
-    private float pauseDuration = 2;
+    private float pauseDuration = 1;
     private bool loop = true;
 
     void Start()
@@ -28,12 +28,12 @@ public class Waypoints : MonoBehaviour
 
     void Update()
     {
-        if (currentWP < 6)
+        if (currentWP < 7)
         {
             patrol();
 
         }
-        else if (currentWP < 12)
+        else if (currentWP < 15)
         {
             jump();
         }
@@ -53,6 +53,7 @@ public class Waypoints : MonoBehaviour
     void patrol()
     {
         anim.SetBool("jumping", false);
+        anim.SetBool("idle", true);
         anim.SetBool("flying", true);
         anim.SetBool("idle", false);
 

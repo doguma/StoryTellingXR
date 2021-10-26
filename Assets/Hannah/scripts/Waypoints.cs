@@ -22,7 +22,6 @@ public class Waypoints : MonoBehaviour
     void Start()
     {
         anim.SetBool("flying", true);
-        anim.SetBool("idle", false);
     }
 
 
@@ -33,7 +32,7 @@ public class Waypoints : MonoBehaviour
             patrol();
 
         }
-        else if (currentWP < 15)
+        else if (currentWP < 10)
         {
             jump();
         }
@@ -53,9 +52,7 @@ public class Waypoints : MonoBehaviour
     void patrol()
     {
         anim.SetBool("jumping", false);
-        anim.SetBool("idle", true);
         anim.SetBool("flying", true);
-        anim.SetBool("idle", false);
 
         Vector3 target = waypoints[currentWP].transform.position;
 
@@ -76,7 +73,6 @@ public class Waypoints : MonoBehaviour
     {
         anim.SetBool("flying", false);
         anim.SetBool("jumping", true);
-        anim.SetBool("idle", false);
 
         Vector3 target = waypoints[currentWP].transform.position;
 
@@ -85,13 +81,11 @@ public class Waypoints : MonoBehaviour
             if (curTime == 0)
             {
                 anim.SetBool("jumping", false);
-                anim.SetBool("idle", true);
                 curTime = Time.time;
             }
             else if ((Time.time - curTime) >= pauseDuration)
             {
                 anim.SetBool("jumping", true);
-                anim.SetBool("idle", false);
                 currentWP++;
                 curTime = 0;
             }

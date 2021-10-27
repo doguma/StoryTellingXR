@@ -1,5 +1,8 @@
 ﻿<Properties StartupConfiguration="{E30CC8E1-E161-C747-3581-C568212EB6B8}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Hannah/scripts/Waypoints.cs">
+    <Files>
+      <File FileName="Assets/Hannah/scripts/Waypoints.cs" Line="29" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">

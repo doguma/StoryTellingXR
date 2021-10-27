@@ -24,9 +24,7 @@ public class Waypoints : MonoBehaviour
     {
         anim.SetBool("flying", true);
         body = GetComponent<Rigidbody>();
-        anim.SetBool("happy-fly", false);
     }
-
 
     void Update()
     {
@@ -46,24 +44,18 @@ public class Waypoints : MonoBehaviour
             anim.SetBool("jumping", true);
             jump();
         }
-        //else if (currentWP == 12)
-        //{
-        //    anim.SetBool("jumping", false);
-        //    anim.SetBool("flying", true);
-        //    idle();
-        //}
         else if (currentWP < 16)
         {
             anim.SetBool("jumping", false);
             anim.SetBool("flying", true);
-            speed = 0.5f;
+            speed = 0.6f;
             patrol_g();
         }
-        else if (currentWP < 17)
+        else if (currentWP == 16)
         {
             happy_idle();
         }
-        else 
+        else if (currentWP < waypoints.Length - 2)
         {
             anim.SetBool("happy", false);
             anim.SetBool("flying", true);
@@ -100,6 +92,7 @@ public class Waypoints : MonoBehaviour
 
     void happy_idle()
     {
+        
         Vector3 target = waypoints[currentWP].transform.position;
 
         if (Vector3.Distance(this.transform.position, waypoints[currentWP].transform.position) < 1)
@@ -110,10 +103,8 @@ public class Waypoints : MonoBehaviour
                 anim.SetBool("happy", true);
                 curTime = Time.time;
             }
-            else if ((Time.time - curTime) >= 9)
+            else if ((Time.time - curTime) >= 8)
             {
-                anim.SetBool("happy", false);
-                anim.SetBool("flying", true);
                 currentWP++;
                 curTime = 0;
             }
@@ -174,6 +165,8 @@ public class Waypoints : MonoBehaviour
 
         Vector3 target = waypoints[currentWP].transform.position;
         body.useGravity = true;
+        anim.SetBool("happy", false);
+        anim.SetBool("flying", true);
 
         if (Vector3.Distance(this.transform.position, waypoints[currentWP].transform.position) >= 1)
         {

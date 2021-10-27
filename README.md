@@ -93,17 +93,17 @@ Following is another example with Distant Lands asset - [Athazagoraphobia](https
 > As of Sep 29th, 2021
 > - Character Navigation with Waypoint System
 
-Waypoints can be incorporated with different animation sequences via different functions - patrol, idle and jump functions were implemented in this story. Throughout the game play, incrementing waypoints are conditioned with the current time in Unity, enabling the character to pause in between the animations. 
+Waypoints can be incorporated with different animation sequences via different functions - patrol, idle and jump functions were implemented in this story. Throughout the game play, incrementing waypoints are conditioned with the current time in Unity that enables the character to pause in between the animations. 
 
 Simple patrol function allows smooth animation sequence, while jump and idle functions use time to wait for certain amount of seconds before moving onto the next waypoint. Below is an example of the character jump animation with time pauses in between the jumps. 
 
-Will-o'-the-wisp jumps off from the wire, stepping on invisible stairs, and swims toward the bottom ground.
+Will-o'-the-wisp jumps off from the wire, steps on invisible stairs, and swims towards the bottom ground.
 
 <img src="/vr story gifs/vrstory6a.gif?raw=true" width="500px"> 
 
-Unity also allows change of physics state of the character via script. 
+Unity also allows change of physics state of the character in the script script - here the character's rigidbody is changed from a floating state to a state with mass pulled by gravity.
 
-When Will-o'-the-wisp almost reaches the ground, 'gravity' is applied to the rigidbody, allowing smooth transition from jumping to walking or patrolling over the ground.
+When Will-o'-the-wisp almost reaches the ground, gravity is applied to the rigidbody, allowing smooth transition from state of jumping in the air to a state of walking or patrolling over the ground.
 
 <img src="/vr story gifs/vrstory6b.gif?raw=true" width="500px">
 

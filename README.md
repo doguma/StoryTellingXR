@@ -20,6 +20,7 @@
 	  <li><a href="#Physics-and-AI">Physics & AI</a></li>
 	  <li><a href="#waypoint-system">Waypoint System</a></li>
 	  <li><a href="#waypoint-variations">Waypoint Variations</a></li>   
+	  <li><a href="#character-interactions">Character Interactions</a></li>   
       </ul>
     </li>
   </ol>
@@ -91,7 +92,7 @@ Following is another example with Distant Lands asset - [Athazagoraphobia](https
 
 ### Waypoint Variations
 > As of Sep 29th, 2021
-> - Character Navigation with Waypoint System
+> - Variations of Waypoint System
 
 Waypoints can be incorporated with different animation sequences via different functions - patrol, idle and jump functions were implemented in this story. Throughout the game play, incrementing waypoints are conditioned with the current time in Unity that enables the character to pause in between the animations. 
 
@@ -106,6 +107,21 @@ Unity also allows change of physics state of the character in the script script 
 When Will-o'-the-wisp almost reaches the ground, gravity is applied to the rigidbody, allowing smooth transition from state of jumping in the air to a state of walking or patrolling over the ground.
 
 <img src="/vr story gifs/vrstory6b.gif?raw=true" width="500px">
+
+
+
+
+### Character Interactions
+> As of Oct 8th, 2021
+> - Character Interactions
+
+Simple interaction is created between Will and Spectre with each animator iterations. Will tries to talk to Spectre by approaching him and chatting out loud to wake him up.
+
+<img src="/vr story gifs/vrstory7a.gif?raw=true" width="500px"> 
+
+However Spectre responds with barely raising his head to see where the sound is coming from, waves with his hand, and goes back to resting state.
+
+<img src="/vr story gifs/vrstory7b.gif?raw=true" width="500px">
 
 
 

@@ -102,7 +102,7 @@ Will-o'-the-wisp jumps off from the wire, steps on invisible stairs, and swims t
 
 <img src="/vr story gifs/vrstory6a.gif?raw=true" width="500px"> 
 
-Unity also allows change of physics state of the character in the script script - here the character's rigidbody is changed from a floating state to a state with mass pulled by gravity.
+Unity also allows change of physics state of the character in the script - here the character's rigidbody is changed from a floating state to a state with mass pulled by gravity.
 
 When Will-o'-the-wisp almost reaches the ground, gravity is applied to the rigidbody, allowing smooth transition from state of jumping in the air to a state of walking or patrolling over the ground.
 
@@ -119,7 +119,7 @@ Simple interaction is created between Will and Spectre with each animator iterat
 
 <img src="/vr story gifs/vrstory7a.gif?raw=true" width="500px"> 
 
-However Spectre responds with barely raising his head to see where the sound is coming from, waves with his hand, and goes back to resting state.
+However Spectre barely responds by raising his head slightly to see where the sound is coming from, waves with his hand, and goes back to resting state. Will loses interest and leaves to look for another creature.
 
 <img src="/vr story gifs/vrstory7b.gif?raw=true" width="500px">
 

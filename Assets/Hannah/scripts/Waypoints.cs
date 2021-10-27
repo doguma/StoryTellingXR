@@ -24,6 +24,7 @@ public class Waypoints : MonoBehaviour
     {
         anim.SetBool("flying", true);
         body = GetComponent<Rigidbody>();
+        anim.SetBool("happy-fly", false);
     }
 
 
@@ -45,25 +46,29 @@ public class Waypoints : MonoBehaviour
             anim.SetBool("jumping", true);
             jump();
         }
-        else if (currentWP == 12)
-        {
-            anim.SetBool("jumping", false);
-            anim.SetBool("flying", true);
-            idle();
-        }
-        else if (currentWP < waypoints.Length - 2)
+        //else if (currentWP == 12)
+        //{
+        //    anim.SetBool("jumping", false);
+        //    anim.SetBool("flying", true);
+        //    idle();
+        //}
+        else if (currentWP < 16)
         {
             anim.SetBool("jumping", false);
             anim.SetBool("flying", true);
             speed = 0.5f;
             patrol_g();
         }
-        else
+        else if (currentWP < 17)
         {
-            anim.SetBool("jumping", false);
-            anim.SetBool("flying", false);
-            anim.SetBool("happy", true);
             happy_idle();
+        }
+        else 
+        {
+            anim.SetBool("happy", false);
+            anim.SetBool("flying", true);
+            speed = 0.5f;
+            patrol_g();
         }
     }
 
@@ -101,12 +106,15 @@ public class Waypoints : MonoBehaviour
         {
             if (curTime == 0)
             {
-                anim.SetBool("jumping", false);
                 anim.SetBool("flying", false);
+                anim.SetBool("happy", true);
                 curTime = Time.time;
             }
-            else if ((Time.time - curTime) >= 30)
+            else if ((Time.time - curTime) >= 9)
             {
+                anim.SetBool("happy", false);
+                anim.SetBool("flying", true);
+                currentWP++;
                 curTime = 0;
             }
         }

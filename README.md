@@ -19,6 +19,7 @@
 	  <li><a href="#camera-movement">Camera Movement</a></li>
 	  <li><a href="#Physics-and-AI">Physics & AI</a></li>
 	  <li><a href="#waypoint-system">Waypoint System</a></li>
+	  <li><a href="#waypoint-variations">Waypoint Variations</a></li>   
       </ul>
     </li>
   </ol>
@@ -86,6 +87,21 @@ Following is another example with Distant Lands asset - [Athazagoraphobia](https
 
 'Will-o'-the-wisp walking over the wires'
 - Waypoint works for all 3 dimensions, allowing walks on different heights and positions
+
+
+### Waypoint Variations
+> As of Sep 29th, 2021
+> - Character Navigation with Waypoint System
+
+Waypoints incorporated with different animation sequences via patrol, idle and jump functions. Throughout the game play, incrementing waypoints are conditioned with the current time in Unity, enabling the character to pause in between the animations. While the patrol function allows smooth animation sequence, jump and idle functions use time to wait for certain amount of seconds before moving onto the next waypoint. Below is an example of the character jump animation with time pauses in between the jumps. Will-o'-the-wisp jumps off from the wire, stepping on invisible stairs, and swims toward the bottom ground.
+
+<img src="/vr story gifs/vrstory6a.gif?raw=true" width="500px"> 
+
+Unity also allows scripting that can change the physics state of the character. When Will-o'-the-wisp almost reaches the ground, 'gravity' is applied to the rigidbody, allowing smooth transition to walking over the ground.
+
+<img src="/vr story gifs/vrstory6b.gif?raw=true" width="500px">
+
+
 
 ------------
 

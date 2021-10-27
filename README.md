@@ -93,11 +93,17 @@ Following is another example with Distant Lands asset - [Athazagoraphobia](https
 > As of Sep 29th, 2021
 > - Character Navigation with Waypoint System
 
-Waypoints incorporated with different animation sequences via patrol, idle and jump functions. Throughout the game play, incrementing waypoints are conditioned with the current time in Unity, enabling the character to pause in between the animations. While the patrol function allows smooth animation sequence, jump and idle functions use time to wait for certain amount of seconds before moving onto the next waypoint. Below is an example of the character jump animation with time pauses in between the jumps. Will-o'-the-wisp jumps off from the wire, stepping on invisible stairs, and swims toward the bottom ground.
+Waypoints can be incorporated with different animation sequences via different functions - patrol, idle and jump functions were implemented in this story. Throughout the game play, incrementing waypoints are conditioned with the current time in Unity, enabling the character to pause in between the animations. 
+
+Simple patrol function allows smooth animation sequence, while jump and idle functions use time to wait for certain amount of seconds before moving onto the next waypoint. Below is an example of the character jump animation with time pauses in between the jumps. 
+
+Will-o'-the-wisp jumps off from the wire, stepping on invisible stairs, and swims toward the bottom ground.
 
 <img src="/vr story gifs/vrstory6a.gif?raw=true" width="500px"> 
 
-Unity also allows scripting that can change the physics state of the character. When Will-o'-the-wisp almost reaches the ground, 'gravity' is applied to the rigidbody, allowing smooth transition to walking over the ground.
+Unity also allows change of physics state of the character via script. 
+
+When Will-o'-the-wisp almost reaches the ground, 'gravity' is applied to the rigidbody, allowing smooth transition from jumping to walking or patrolling over the ground.
 
 <img src="/vr story gifs/vrstory6b.gif?raw=true" width="500px">
 

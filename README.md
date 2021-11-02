@@ -8,7 +8,7 @@
   <ol>
     <li>
       <a href="#project-summary">Project Summary</a>
-    </li>
+    </li> 
     <li>
         <a href="#Prerequisites">Prerequisites</a>
     </li>

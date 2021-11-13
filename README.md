@@ -94,7 +94,7 @@ Following is another example with Distant Lands asset - [Athazagoraphobia](https
 > As of Sep 29th, 2021
 > - Variations of Waypoint System
 
-Waypoints can be incorporated with different animation sequences via different functions - patrol, idle and jump functions were implemented in this story. Throughout the game play, incrementing waypoints are conditioned with the current time in Unity that enables the character to pause in between the animations. 
+Waypoints can be incorporated with different animation sequences as well - patrol, idle and jump functions were implemented with waypoints in this story. Throughout the game play, incremented waypoints are conditioned with the current **time** in Unity, which enables the character to pause in between the animations. 
 
 Simple patrol function allows smooth animation sequence, while jump and idle functions use time to wait for certain amount of seconds before moving onto the next waypoint. Below is an example of the character jump animation with time pauses in between the jumps. 
 

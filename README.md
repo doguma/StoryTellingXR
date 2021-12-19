@@ -1,6 +1,6 @@
 <h1 align="left">Story-telling XR Framework - Animation</h3>
 <p align="left">
-    2021 VR Fall Project (https://youtu.be/79MMeKkfeFU)
+    2021 VR Summer Project (https://youtu.be/79MMeKkfeFU)
 </p> 
 
 <!-- TABLE OF CONTENTS -->
